@@ -1,0 +1,1640 @@
+Prefix(:=<https://narratech.com/document/ebtonto/>)
+Prefix(ebt:=<https://narratech.com/document/ebtonto#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+
+
+Ontology(<https://narratech.com/document/ebtonto/>
+
+Declaration(Class(ebt:ACAS_Warning))
+Declaration(Class(ebt:AP_disconnection_and_reengagement))
+Declaration(Class(ebt:ATC_Issue))
+Declaration(Class(ebt:Above_Descent_Path))
+Declaration(Class(ebt:Above_V1))
+Declaration(Class(ebt:Absent_Information))
+Declaration(Class(ebt:Adverse_Weather))
+Declaration(Class(ebt:After_Rotation))
+Declaration(Class(ebt:After_Take-off))
+Declaration(Class(ebt:Aircraft_Condition))
+Declaration(Class(ebt:Aircraft_Event))
+Declaration(Class(ebt:Aircraft_Handling_Error))
+Declaration(Class(ebt:Aircraft_Position))
+Declaration(Class(ebt:Aircraft_State))
+Declaration(Class(ebt:Aircraft_Type))
+Declaration(Class(ebt:Aircraft_Upset))
+Declaration(Class(ebt:Airport_Event))
+Declaration(Class(ebt:Alternate_flight_control_modes))
+Declaration(Class(ebt:Altitude_Capture_Mode))
+Declaration(Class(ebt:Altitude_compensation_for_temperature))
+Declaration(Class(ebt:Amendment_to_Cleared_Flight_Level))
+Declaration(Class(ebt:Approach))
+Declaration(Class(ebt:Approach_Procedure))
+Declaration(Class(ebt:Auto_Flight_Failure))
+Declaration(Class(ebt:Automation_Error))
+Declaration(Class(ebt:Automation_Mode))
+Declaration(Class(ebt:Automation_Mode_Awareness_and_Intervention))
+Declaration(Class(ebt:Before_Start-up))
+Declaration(Class(ebt:Before_Take-off))
+Declaration(Class(ebt:Below_DA))
+Declaration(Class(ebt:Below_V1))
+Declaration(Class(ebt:Birds))
+Declaration(Class(ebt:Bounced_Landing))
+Declaration(Class(ebt:COM_Scenario))
+Declaration(Class(ebt:Cabin-Flight_Deck_Event))
+Declaration(Class(ebt:Cabin_Crew_Report))
+Declaration(Class(ebt:Cabin_Fire))
+Declaration(Class(ebt:Cargo_Fire))
+Declaration(Class(ebt:Circling_Approach))
+Declaration(Class(ebt:Clear_Air_Turbulence))
+Declaration(Class(ebt:Clearance_Problem))
+Declaration(Class(ebt:Clearance_giving_Insuficcient_Terrain_Clearance))
+Declaration(Class(ebt:Clearance_to_an_altitude_below_acceleration_altitude))
+Declaration(Class(ebt:Clearance_to_waypoints_beyond_programmed_ones))
+Declaration(Class(ebt:Climb_Resolution_Advisory))
+Declaration(Class(ebt:Climb_to_Cruising_Level_or_Altitude))
+Declaration(Class(ebt:Cloud))
+Declaration(Class(ebt:Cloud_Base_Deterioration))
+Declaration(Class(ebt:Communication))
+Declaration(Class(ebt:Communication_Problem))
+Declaration(Class(ebt:Competency))
+Declaration(Class(ebt:Condition))
+Declaration(Class(ebt:Confirmed_Information))
+Declaration(Class(ebt:Controller_Error))
+Declaration(Class(ebt:Crew_Error))
+Declaration(Class(ebt:Crew_Event))
+Declaration(Class(ebt:Crosswind))
+Declaration(Class(ebt:Cruise))
+Declaration(Class(ebt:Demanding_Wind_Conditions))
+Declaration(Class(ebt:Descent))
+Declaration(Class(ebt:Descent_Resolution_Advisory))
+Declaration(Class(ebt:Deviation))
+Declaration(Class(ebt:Deviation_From_Flight_Path))
+Declaration(Class(ebt:Deviation_from_planned_descent_routing))
+Declaration(Class(ebt:Deviation_in_Altitude))
+Declaration(Class(ebt:Deviation_in_Bank_Angle))
+Declaration(Class(ebt:Deviation_in_Pitch))
+Declaration(Class(ebt:Deviation_in_Speed))
+Declaration(Class(ebt:Deviation_in_Vertical_Rate))
+Declaration(Class(ebt:DirectInterventionOfPilotMonitoring))
+Declaration(Class(ebt:Diversion))
+Declaration(Class(ebt:Doubtful_Braking_Action))
+Declaration(Class(ebt:Doubtful_Information))
+Declaration(Class(ebt:Element))
+Declaration(Class(ebt:En-route))
+Declaration(Class(ebt:Engine-Out_Special_Terrain_Procedure))
+Declaration(Class(ebt:Engine_Failure))
+Declaration(Class(ebt:Engine_Fire))
+Declaration(Class(ebt:Environment_Event))
+Declaration(Class(ebt:Event))
+Declaration(Class(ebt:Event_At_the_Limit))
+Declaration(Class(ebt:Event_with_Predictability))
+Declaration(Class(ebt:Expected_Event))
+Declaration(Class(ebt:Extinguishable_Engine_Fire))
+Declaration(Class(ebt:Factor_Out_of_Limits))
+Declaration(Class(ebt:Factor_Within_Limits))
+Declaration(Class(ebt:Final_Approach))
+Declaration(Class(ebt:Final_Descent))
+Declaration(Class(ebt:Fire-Smoke))
+Declaration(Class(ebt:Flight_Deck_Fire))
+Declaration(Class(ebt:Flight_Phase))
+Declaration(Class(ebt:Flight_Plan))
+Declaration(Class(ebt:Fog))
+Declaration(Class(ebt:FrequencyCongestion))
+Declaration(Class(ebt:GPS_Failure))
+Declaration(Class(ebt:Go-around))
+Declaration(Class(ebt:Go-around_flown_manually))
+Declaration(Class(ebt:Ground))
+Declaration(Class(ebt:Gusts))
+Declaration(Class(ebt:Hail))
+Declaration(Class(ebt:Heavy_Rain))
+Declaration(Class(ebt:High_Energy_Descent))
+Declaration(Class(ebt:High_Speed_Event))
+Declaration(Class(ebt:High_Temperature))
+Declaration(Class(ebt:Icing))
+Declaration(Class(ebt:Immediate_Descent))
+Declaration(Class(ebt:Immediate_Landing))
+Declaration(Class(ebt:Immediate_Response))
+Declaration(Class(ebt:Information))
+Declaration(Class(ebt:Information_Issue))
+Declaration(Class(ebt:Initial_Approach))
+Declaration(Class(ebt:Initial_Climb))
+Declaration(Class(ebt:Instrumental_Flight_Rules_Procedure))
+Declaration(Class(ebt:Intensity_Limited_Factor))
+Declaration(Class(ebt:Intermediate_Approach))
+Declaration(Class(ebt:LTW_Scenario))
+Declaration(Class(ebt:Landing))
+Declaration(Class(ebt:Landing_Gear_Malfunction))
+Declaration(Class(ebt:Late_ATC_clearance))
+Declaration(Class(ebt:Leadership_and_Teamwork))
+Declaration(Class(ebt:Light_Rain))
+Declaration(Class(ebt:Loading_Fuel_Performance_Error))
+Declaration(Class(ebt:Lost_Communication))
+Declaration(Class(ebt:Low_Speed_Event))
+Declaration(Class(ebt:Low_Temperature))
+Declaration(Class(ebt:Low_Visibility))
+Declaration(Class(ebt:MEL_Item_Malfunction))
+Declaration(Class(ebt:MEL_Procedure))
+Declaration(Class(ebt:Malfunction))
+Declaration(Class(ebt:Marginal_Performance))
+Declaration(Class(ebt:Mass_and_balance))
+Declaration(Class(ebt:Maximum_Cruise_Flight_Level))
+Declaration(Class(ebt:Missed_Approach))
+Declaration(Class(ebt:Mist))
+Declaration(Class(ebt:Moderate_Rain))
+Declaration(Class(ebt:NAV_Failure))
+Declaration(Class(ebt:NAV_degradation))
+Declaration(Class(ebt:Navigation_Procedure))
+Declaration(Class(ebt:Near_the_Limits))
+Declaration(Class(ebt:No_ATC_clearance))
+Declaration(Class(ebt:No_Approach_Clearance))
+Declaration(Class(ebt:Non-Extinguishable_Engine_Fire))
+Declaration(Class(ebt:Non-precision_Approach_Procedure))
+Declaration(Class(ebt:On_Final))
+Declaration(Class(ebt:Operational_Category))
+Declaration(Class(ebt:Operational_Condition))
+Declaration(Class(ebt:Operational_Diversion))
+Declaration(Class(ebt:Operational_Event))
+Declaration(Class(ebt:Overweight_for_Landing))
+Declaration(Class(ebt:PSD_Scenario))
+Declaration(Class(ebt:Parked))
+Declaration(Class(ebt:Performance))
+Declaration(Class(ebt:Pilot_Incapatication))
+Declaration(Class(ebt:PoorQualityTransmissions))
+Declaration(Class(ebt:Position_Drift))
+Declaration(Class(ebt:Precipitation))
+Declaration(Class(ebt:Precision_Approach_Procedure))
+Declaration(Class(ebt:Predictive_Windshear_Warning))
+Declaration(Class(ebt:Preflight))
+Declaration(Class(ebt:Problem_Solving_and_Decision_Making))
+Declaration(Class(ebt:RA_Warning))
+Declaration(Class(ebt:Rain))
+Declaration(Class(ebt:Reactive_Windshear_Warning))
+Declaration(Class(ebt:Required_Behavior))
+Declaration(Class(ebt:Runway-Taxiway_Contamination))
+Declaration(Class(ebt:Runway_Incursion))
+Declaration(Class(ebt:SAW_Scenario))
+Declaration(Class(ebt:Scenario))
+Declaration(Class(ebt:Shifting_Wind_Directions))
+Declaration(Class(ebt:Situational_Awareness))
+Declaration(Class(ebt:Smoke))
+Declaration(Class(ebt:Snow))
+Declaration(Class(ebt:Standard_Operating_Procedure))
+Declaration(Class(ebt:Start-up))
+Declaration(Class(ebt:Stop-Go_Decision))
+Declaration(Class(ebt:TAWS_Warning))
+Declaration(Class(ebt:Tailwind))
+Declaration(Class(ebt:Take-off))
+Declaration(Class(ebt:Take-off_Run))
+Declaration(Class(ebt:Taxi))
+Declaration(Class(ebt:Taxi_from_Runway))
+Declaration(Class(ebt:Taxi_to_Runway))
+Declaration(Class(ebt:Taxi_to_Take-off_Position))
+Declaration(Class(ebt:Technical_Diversion))
+Declaration(Class(ebt:Thunderstorm))
+Declaration(Class(ebt:Traffic_Advisory))
+Declaration(Class(ebt:Traffic_Event))
+Declaration(Class(ebt:Training_Session))
+Declaration(Class(ebt:Turbulence))
+Declaration(Class(ebt:Turbulence_in_Cloud))
+Declaration(Class(ebt:Undesired_Aircraft_State))
+Declaration(Class(ebt:Unexpected_Event))
+Declaration(Class(ebt:Unreilable_Speed))
+Declaration(Class(ebt:Unstable_Approach))
+Declaration(Class(ebt:Up_and_Downdrafts))
+Declaration(Class(ebt:Visibility_Deterioration))
+Declaration(Class(ebt:Visual_Flight_Rules))
+Declaration(Class(ebt:Visual_information))
+Declaration(Class(ebt:Visual_landing_reference))
+Declaration(Class(ebt:WLM_Scenario))
+Declaration(Class(ebt:Wake_Turbulence))
+Declaration(Class(ebt:Warning))
+Declaration(Class(ebt:Weather_Diversion))
+Declaration(Class(ebt:Weather_Information))
+Declaration(Class(ebt:Wind))
+Declaration(Class(ebt:Windshear))
+Declaration(Class(ebt:Windshear_Warning))
+Declaration(Class(ebt:Workload_Management))
+Declaration(Class(<https://narratech.com/document/ebtonto#At/Close_to_DA/MDA>))
+Declaration(ObjectProperty(ebt:competencyRequiredBy))
+Declaration(ObjectProperty(ebt:eventOf))
+Declaration(ObjectProperty(ebt:flightPhaseOf))
+Declaration(ObjectProperty(ebt:hasAircraftPosition))
+Declaration(ObjectProperty(ebt:hasAircraftState))
+Declaration(ObjectProperty(ebt:hasEvent))
+Declaration(ObjectProperty(ebt:hasFlightPhase))
+Declaration(ObjectProperty(ebt:hasInformation))
+Declaration(ObjectProperty(ebt:hasMELProcedure))
+Declaration(ObjectProperty(ebt:hasNavigationProcedure))
+Declaration(ObjectProperty(ebt:hasOperationalElement))
+Declaration(ObjectProperty(ebt:hasProcedure))
+Declaration(ObjectProperty(ebt:hasRequiredBehavior))
+Declaration(ObjectProperty(ebt:hasScenario))
+Declaration(ObjectProperty(ebt:leadsTo))
+Declaration(ObjectProperty(ebt:operationalElementOf))
+Declaration(ObjectProperty(ebt:requiredBehaviorOf))
+Declaration(ObjectProperty(ebt:requiresCompetency))
+Declaration(ObjectProperty(ebt:scenarioOf))
+Declaration(DataProperty(ebt:correspondingACN))
+Declaration(DataProperty(ebt:date))
+Declaration(DataProperty(ebt:localTimeOfDay))
+Declaration(DataProperty(ebt:localeReference))
+Declaration(DataProperty(ebt:stateReference))
+Declaration(DataProperty(ebt:synopsis))
+Declaration(AnnotationProperty(skos:comment))
+Declaration(AnnotationProperty(skos:definition))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: owl:topObjectProperty (owl:topObjectProperty)
+
+SubObjectPropertyOf(owl:topObjectProperty owl:topObjectProperty)
+
+# Object Property: ebt:competencyRequiredBy (ebt:competencyRequiredBy)
+
+SubObjectPropertyOf(ebt:competencyRequiredBy owl:topObjectProperty)
+InverseObjectProperties(ebt:competencyRequiredBy ebt:requiresCompetency)
+AsymmetricObjectProperty(ebt:competencyRequiredBy)
+IrreflexiveObjectProperty(ebt:competencyRequiredBy)
+ObjectPropertyDomain(ebt:competencyRequiredBy ebt:Competency)
+ObjectPropertyRange(ebt:competencyRequiredBy ebt:Scenario)
+
+# Object Property: ebt:eventOf (eventOf)
+
+AnnotationAssertion(rdfs:label ebt:eventOf "eventOf")
+SubObjectPropertyOf(ebt:eventOf owl:topObjectProperty)
+InverseObjectProperties(ebt:eventOf ebt:hasEvent)
+AsymmetricObjectProperty(ebt:eventOf)
+IrreflexiveObjectProperty(ebt:eventOf)
+ObjectPropertyDomain(ebt:eventOf ebt:Event)
+ObjectPropertyRange(ebt:eventOf ebt:Scenario)
+DisjointObjectProperties(ebt:eventOf ebt:operationalElementOf ebt:requiredBehaviorOf ebt:scenarioOf)
+
+# Object Property: ebt:flightPhaseOf (flightPhaseOf)
+
+AnnotationAssertion(rdfs:label ebt:flightPhaseOf "flightPhaseOf"@en)
+SubObjectPropertyOf(ebt:flightPhaseOf ebt:operationalElementOf)
+InverseObjectProperties(ebt:flightPhaseOf ebt:hasFlightPhase)
+AsymmetricObjectProperty(ebt:flightPhaseOf)
+IrreflexiveObjectProperty(ebt:flightPhaseOf)
+ObjectPropertyDomain(ebt:flightPhaseOf ebt:Flight_Phase)
+ObjectPropertyRange(ebt:flightPhaseOf ebt:Scenario)
+
+# Object Property: ebt:hasAircraftPosition (hasAircraftPosition)
+
+AnnotationAssertion(rdfs:label ebt:hasAircraftPosition "hasAircraftPosition")
+SubObjectPropertyOf(ebt:hasAircraftPosition owl:topObjectProperty)
+AsymmetricObjectProperty(ebt:hasAircraftPosition)
+IrreflexiveObjectProperty(ebt:hasAircraftPosition)
+ObjectPropertyDomain(ebt:hasAircraftPosition ebt:Scenario)
+ObjectPropertyRange(ebt:hasAircraftPosition ebt:Aircraft_Position)
+
+# Object Property: ebt:hasAircraftState (hasAircraftState)
+
+AnnotationAssertion(rdfs:label ebt:hasAircraftState "hasAircraftState")
+SubObjectPropertyOf(ebt:hasAircraftState owl:topObjectProperty)
+AsymmetricObjectProperty(ebt:hasAircraftState)
+IrreflexiveObjectProperty(ebt:hasAircraftState)
+ObjectPropertyDomain(ebt:hasAircraftState ebt:Scenario)
+ObjectPropertyRange(ebt:hasAircraftState ebt:Aircraft_State)
+
+# Object Property: ebt:hasEvent (hasEvent)
+
+AnnotationAssertion(rdfs:label ebt:hasEvent "hasEvent"@en)
+SubObjectPropertyOf(ebt:hasEvent owl:topObjectProperty)
+AsymmetricObjectProperty(ebt:hasEvent)
+IrreflexiveObjectProperty(ebt:hasEvent)
+ObjectPropertyDomain(ebt:hasEvent ebt:Scenario)
+ObjectPropertyRange(ebt:hasEvent ebt:Event)
+DisjointObjectProperties(ebt:hasEvent ebt:hasOperationalElement ebt:hasRequiredBehavior ebt:hasScenario)
+
+# Object Property: ebt:hasFlightPhase (hasFlightPhase)
+
+AnnotationAssertion(rdfs:comment ebt:hasFlightPhase "Currently, we are working with only 1 flight phase per Exercise..."@en)
+AnnotationAssertion(rdfs:label ebt:hasFlightPhase "hasFlightPhase"@en)
+SubObjectPropertyOf(ebt:hasFlightPhase ebt:hasOperationalElement)
+AsymmetricObjectProperty(ebt:hasFlightPhase)
+IrreflexiveObjectProperty(ebt:hasFlightPhase)
+ObjectPropertyDomain(ebt:hasFlightPhase ebt:Scenario)
+ObjectPropertyRange(ebt:hasFlightPhase ebt:Flight_Phase)
+
+# Object Property: ebt:hasInformation (hasInformation)
+
+AnnotationAssertion(rdfs:label ebt:hasInformation "hasInformation")
+SubObjectPropertyOf(ebt:hasInformation owl:topObjectProperty)
+AsymmetricObjectProperty(ebt:hasInformation)
+IrreflexiveObjectProperty(ebt:hasInformation)
+ObjectPropertyDomain(ebt:hasInformation ebt:Scenario)
+ObjectPropertyRange(ebt:hasInformation ebt:Information)
+
+# Object Property: ebt:hasMELProcedure (ebt:hasMELProcedure)
+
+SubObjectPropertyOf(ebt:hasMELProcedure ebt:hasProcedure)
+AsymmetricObjectProperty(ebt:hasMELProcedure)
+IrreflexiveObjectProperty(ebt:hasMELProcedure)
+ObjectPropertyDomain(ebt:hasMELProcedure ebt:Scenario)
+ObjectPropertyRange(ebt:hasMELProcedure ebt:MEL_Procedure)
+
+# Object Property: ebt:hasNavigationProcedure (ebt:hasNavigationProcedure)
+
+SubObjectPropertyOf(ebt:hasNavigationProcedure ebt:hasProcedure)
+AsymmetricObjectProperty(ebt:hasNavigationProcedure)
+IrreflexiveObjectProperty(ebt:hasNavigationProcedure)
+ObjectPropertyDomain(ebt:hasNavigationProcedure ebt:Scenario)
+ObjectPropertyRange(ebt:hasNavigationProcedure ebt:Navigation_Procedure)
+
+# Object Property: ebt:hasOperationalElement (hasOperationalElement)
+
+AnnotationAssertion(rdfs:label ebt:hasOperationalElement "hasOperationalElement"@en)
+SubObjectPropertyOf(ebt:hasOperationalElement owl:topObjectProperty)
+InverseObjectProperties(ebt:hasOperationalElement ebt:operationalElementOf)
+AsymmetricObjectProperty(ebt:hasOperationalElement)
+IrreflexiveObjectProperty(ebt:hasOperationalElement)
+ObjectPropertyDomain(ebt:hasOperationalElement ebt:Scenario)
+ObjectPropertyRange(ebt:hasOperationalElement ebt:Operational_Condition)
+
+# Object Property: ebt:hasProcedure (ebt:hasProcedure)
+
+SubObjectPropertyOf(ebt:hasProcedure ebt:hasOperationalElement)
+AsymmetricObjectProperty(ebt:hasProcedure)
+IrreflexiveObjectProperty(ebt:hasProcedure)
+ObjectPropertyDomain(ebt:hasProcedure ebt:Scenario)
+ObjectPropertyRange(ebt:hasProcedure ebt:Standard_Operating_Procedure)
+
+# Object Property: ebt:hasRequiredBehavior (hasRequiredBehavior)
+
+AnnotationAssertion(rdfs:label ebt:hasRequiredBehavior "hasRequiredBehavior"@en)
+SubObjectPropertyOf(ebt:hasRequiredBehavior owl:topObjectProperty)
+InverseObjectProperties(ebt:hasRequiredBehavior ebt:requiredBehaviorOf)
+AsymmetricObjectProperty(ebt:hasRequiredBehavior)
+IrreflexiveObjectProperty(ebt:hasRequiredBehavior)
+ObjectPropertyDomain(ebt:hasRequiredBehavior ebt:Scenario)
+ObjectPropertyRange(ebt:hasRequiredBehavior ebt:Required_Behavior)
+
+# Object Property: ebt:hasScenario (hasScenario)
+
+AnnotationAssertion(rdfs:label ebt:hasScenario "hasScenario"@en)
+SubObjectPropertyOf(ebt:hasScenario owl:topObjectProperty)
+InverseObjectProperties(ebt:hasScenario ebt:scenarioOf)
+AsymmetricObjectProperty(ebt:hasScenario)
+IrreflexiveObjectProperty(ebt:hasScenario)
+ObjectPropertyDomain(ebt:hasScenario ebt:Training_Session)
+ObjectPropertyRange(ebt:hasScenario ebt:Scenario)
+
+# Object Property: ebt:leadsTo (leadsTo)
+
+AnnotationAssertion(rdfs:label ebt:leadsTo "leadsTo")
+SubObjectPropertyOf(ebt:leadsTo owl:topObjectProperty)
+AsymmetricObjectProperty(ebt:leadsTo)
+ObjectPropertyDomain(ebt:leadsTo ebt:Element)
+ObjectPropertyRange(ebt:leadsTo ebt:Element)
+
+# Object Property: ebt:operationalElementOf (operationalElementOf)
+
+AnnotationAssertion(rdfs:label ebt:operationalElementOf "operationalElementOf"@en)
+SubObjectPropertyOf(ebt:operationalElementOf owl:topObjectProperty)
+AsymmetricObjectProperty(ebt:operationalElementOf)
+IrreflexiveObjectProperty(ebt:operationalElementOf)
+ObjectPropertyDomain(ebt:operationalElementOf ebt:Operational_Condition)
+ObjectPropertyRange(ebt:operationalElementOf ebt:Scenario)
+
+# Object Property: ebt:requiredBehaviorOf (requiredBehaviorOf)
+
+AnnotationAssertion(rdfs:label ebt:requiredBehaviorOf "requiredBehaviorOf"@en)
+SubObjectPropertyOf(ebt:requiredBehaviorOf owl:topObjectProperty)
+AsymmetricObjectProperty(ebt:requiredBehaviorOf)
+IrreflexiveObjectProperty(ebt:requiredBehaviorOf)
+ObjectPropertyDomain(ebt:requiredBehaviorOf ebt:Required_Behavior)
+ObjectPropertyRange(ebt:requiredBehaviorOf ebt:Scenario)
+
+# Object Property: ebt:requiresCompetency (ebt:requiresCompetency)
+
+SubObjectPropertyOf(ebt:requiresCompetency owl:topObjectProperty)
+AsymmetricObjectProperty(ebt:requiresCompetency)
+IrreflexiveObjectProperty(ebt:requiresCompetency)
+ObjectPropertyDomain(ebt:requiresCompetency ebt:Scenario)
+ObjectPropertyRange(ebt:requiresCompetency ebt:Competency)
+
+# Object Property: ebt:scenarioOf (scenarioOf)
+
+AnnotationAssertion(rdfs:label ebt:scenarioOf "scenarioOf"@en)
+SubObjectPropertyOf(ebt:scenarioOf owl:topObjectProperty)
+AsymmetricObjectProperty(ebt:scenarioOf)
+IrreflexiveObjectProperty(ebt:scenarioOf)
+ObjectPropertyDomain(ebt:scenarioOf ebt:Scenario)
+ObjectPropertyRange(ebt:scenarioOf ebt:Training_Session)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: ebt:correspondingACN (ebt:correspondingACN)
+
+SubDataPropertyOf(ebt:correspondingACN owl:topDataProperty)
+DataPropertyDomain(ebt:correspondingACN ebt:Scenario)
+DataPropertyRange(ebt:correspondingACN xsd:string)
+
+# Data Property: ebt:date (ebt:date)
+
+SubDataPropertyOf(ebt:date owl:topDataProperty)
+DataPropertyDomain(ebt:date ebt:Scenario)
+DataPropertyRange(ebt:date xsd:string)
+
+# Data Property: ebt:localTimeOfDay (ebt:localTimeOfDay)
+
+SubDataPropertyOf(ebt:localTimeOfDay owl:topDataProperty)
+DataPropertyDomain(ebt:localTimeOfDay ebt:Scenario)
+DataPropertyRange(ebt:localTimeOfDay xsd:string)
+
+# Data Property: ebt:localeReference (ebt:localeReference)
+
+SubDataPropertyOf(ebt:localeReference owl:topDataProperty)
+DataPropertyDomain(ebt:localeReference ebt:Scenario)
+DataPropertyRange(ebt:localeReference xsd:string)
+
+# Data Property: ebt:stateReference (ebt:stateReference)
+
+SubDataPropertyOf(ebt:stateReference owl:topDataProperty)
+DataPropertyDomain(ebt:stateReference ebt:Scenario)
+DataPropertyRange(ebt:stateReference xsd:string)
+
+# Data Property: ebt:synopsis (ebt:synopsis)
+
+SubDataPropertyOf(ebt:synopsis owl:topDataProperty)
+DataPropertyDomain(ebt:synopsis ebt:Scenario)
+DataPropertyRange(ebt:synopsis xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: ebt:ACAS_Warning (ACAS_Warning)
+
+AnnotationAssertion(rdfs:label ebt:ACAS_Warning "ACAS_Warning")
+AnnotationAssertion(skos:comment ebt:ACAS_Warning "Airborne Collision Avoidance System Warning")
+SubClassOf(ebt:ACAS_Warning ebt:Warning)
+
+# Class: ebt:AP_disconnection_and_reengagement (AP_Disconnection_and_Reengagement)
+
+AnnotationAssertion(rdfs:label ebt:AP_disconnection_and_reengagement "AP_Disconnection_and_Reengagement")
+SubClassOf(ebt:AP_disconnection_and_reengagement ebt:Required_Behavior)
+
+# Class: ebt:ATC_Issue (ATC_Issue)
+
+AnnotationAssertion(rdfs:label ebt:ATC_Issue "ATC_Issue"@en)
+SubClassOf(ebt:ATC_Issue ebt:Environment_Event)
+
+# Class: ebt:Above_Descent_Path (Above_Descent_Path)
+
+AnnotationAssertion(rdfs:label ebt:Above_Descent_Path "Above_Descent_Path")
+SubClassOf(ebt:Above_Descent_Path ebt:Aircraft_Position)
+
+# Class: ebt:Above_V1 (ebt:Above_V1)
+
+AnnotationAssertion(skos:definition ebt:Above_V1 "Take-off phase after surpassing V1. V1 is the Decision speed (sometimes referred to as critical engine speed or critical engine failure speed) by which any decision to reject a takeoff must be made. Above V1, the takeoff must be continued unless there is reason to believe that the aircraft will not fly. An engine failure identified not later than V1 should always result in a rejected takeoff.")
+SubClassOf(ebt:Above_V1 ebt:Take-off_Run)
+
+# Class: ebt:Absent_Information (Absent_Information)
+
+AnnotationAssertion(rdfs:label ebt:Absent_Information "Absent_Information")
+SubClassOf(ebt:Absent_Information ebt:Information_Issue)
+
+# Class: ebt:Adverse_Weather (Adverse_Weather)
+
+AnnotationAssertion(rdfs:label ebt:Adverse_Weather "Adverse_Weather"@en)
+SubClassOf(ebt:Adverse_Weather ebt:Environment_Event)
+
+# Class: ebt:After_Rotation (After_Rotation)
+
+AnnotationAssertion(rdfs:label ebt:After_Rotation "After_Rotation")
+SubClassOf(ebt:After_Rotation ebt:Above_V1)
+
+# Class: ebt:After_Take-off (After_Take-off)
+
+AnnotationAssertion(rdfs:label ebt:After_Take-off "After_Take-off")
+SubClassOf(ebt:After_Take-off ebt:Climb_to_Cruising_Level_or_Altitude)
+
+# Class: ebt:Aircraft_Condition (Aircraft_Condition)
+
+AnnotationAssertion(rdfs:label ebt:Aircraft_Condition "Aircraft_Condition")
+SubClassOf(ebt:Aircraft_Condition ebt:Condition)
+
+# Class: ebt:Aircraft_Event (Aircraft_Event)
+
+AnnotationAssertion(rdfs:label ebt:Aircraft_Event "Aircraft_Event")
+SubClassOf(ebt:Aircraft_Event ebt:Event)
+
+# Class: ebt:Aircraft_Handling_Error (Aircraft_Handling_Error)
+
+AnnotationAssertion(rdfs:label ebt:Aircraft_Handling_Error "Aircraft_Handling_Error")
+SubClassOf(ebt:Aircraft_Handling_Error ebt:Crew_Error)
+
+# Class: ebt:Aircraft_Position (Aircraft_Position)
+
+AnnotationAssertion(rdfs:label ebt:Aircraft_Position "Aircraft_Position")
+SubClassOf(ebt:Aircraft_Position ebt:Aircraft_Condition)
+
+# Class: ebt:Aircraft_State (Aircraft_State)
+
+AnnotationAssertion(rdfs:label ebt:Aircraft_State "Aircraft_State")
+SubClassOf(ebt:Aircraft_State ebt:Aircraft_Condition)
+
+# Class: ebt:Aircraft_Type (Aircraft_Type)
+
+AnnotationAssertion(rdfs:label ebt:Aircraft_Type "Aircraft_Type")
+SubClassOf(ebt:Aircraft_Type ebt:Aircraft_Condition)
+
+# Class: ebt:Aircraft_Upset (Aircraft_Upset)
+
+AnnotationAssertion(rdfs:label ebt:Aircraft_Upset "Aircraft_Upset")
+AnnotationAssertion(skos:definition ebt:Aircraft_Upset "An airplane upset is defined as an airplane in flight unintentionally exceeding the parameters normally experienced in line operations or training.
+1. Pitch attitude greater than 25° nose up. 2. Pitch attitude greater than 10° nose
+down.
+3. Bank angle greater than 45°.
+4. Within pitch and bank angle normal
+parameters, but flying at airspeeds inappropriate for the conditions [IATA EBT Document]")
+SubClassOf(ebt:Aircraft_Upset ebt:Undesired_Aircraft_State)
+
+# Class: ebt:Airport_Event (Airport_Event)
+
+AnnotationAssertion(rdfs:label ebt:Airport_Event "Airport_Event")
+SubClassOf(ebt:Airport_Event ebt:Environment_Event)
+
+# Class: ebt:Alternate_flight_control_modes (Alternate_Flight_Control_Modes)
+
+AnnotationAssertion(rdfs:label ebt:Alternate_flight_control_modes "Alternate_Flight_Control_Modes")
+SubClassOf(ebt:Alternate_flight_control_modes ebt:Required_Behavior)
+
+# Class: ebt:Altitude_Capture_Mode (Altitude Capture Mode)
+
+AnnotationAssertion(rdfs:label ebt:Altitude_Capture_Mode "Altitude Capture Mode")
+SubClassOf(ebt:Altitude_Capture_Mode ebt:Automation_Mode)
+
+# Class: ebt:Altitude_compensation_for_temperature (Altitude_Compensation_for_Temperature)
+
+AnnotationAssertion(rdfs:label ebt:Altitude_compensation_for_temperature "Altitude_Compensation_for_Temperature")
+SubClassOf(ebt:Altitude_compensation_for_temperature ebt:Required_Behavior)
+
+# Class: ebt:Amendment_to_Cleared_Flight_Level (Amendment_to_Cleared_Flight_Level)
+
+AnnotationAssertion(rdfs:label ebt:Amendment_to_Cleared_Flight_Level "Amendment_to_Cleared_Flight_Level")
+SubClassOf(ebt:Amendment_to_Cleared_Flight_Level ebt:Clearance_Problem)
+
+# Class: ebt:Approach (Approach)
+
+AnnotationAssertion(rdfs:label ebt:Approach "Approach"@en)
+AnnotationAssertion(skos:definition ebt:Approach "The phase of flight from the outer marker to the to the point of transition from nose-low to nose-high attitude immediately prior to the flare above the runway [IFR]; or [VFR] from 1500 feet (450 metres) above the runway end elevation or from the point of vfr pattern entry to the flare above the runway."^^xsd:string)
+SubClassOf(ebt:Approach ebt:Flight_Phase)
+DisjointClasses(ebt:Approach ebt:Clearance_to_an_altitude_below_acceleration_altitude)
+
+# Class: ebt:Approach_Procedure (Approach Procedure)
+
+AnnotationAssertion(rdfs:label ebt:Approach_Procedure "Approach Procedure")
+SubClassOf(ebt:Approach_Procedure ebt:Instrumental_Flight_Rules_Procedure)
+DisjointClasses(ebt:Approach_Procedure ebt:Cruise)
+DisjointClasses(ebt:Approach_Procedure ebt:Ground)
+DisjointClasses(ebt:Approach_Procedure ebt:Landing)
+DisjointClasses(ebt:Approach_Procedure ebt:Take-off)
+
+# Class: ebt:Auto_Flight_Failure (Auto_Flight_Failure)
+
+AnnotationAssertion(rdfs:label ebt:Auto_Flight_Failure "Auto_Flight_Failure")
+SubClassOf(ebt:Auto_Flight_Failure ebt:Malfunction)
+
+# Class: ebt:Automation_Error (Automation_Error)
+
+AnnotationAssertion(rdfs:label ebt:Automation_Error "Automation_Error")
+SubClassOf(ebt:Automation_Error ebt:Aircraft_Handling_Error)
+
+# Class: ebt:Automation_Mode (Automation_Mode)
+
+AnnotationAssertion(rdfs:label ebt:Automation_Mode "Automation_Mode")
+SubClassOf(ebt:Automation_Mode ebt:Aircraft_State)
+
+# Class: ebt:Automation_Mode_Awareness_and_Intervention (Automation_Mode_Awareness_and_Intervention)
+
+AnnotationAssertion(rdfs:label ebt:Automation_Mode_Awareness_and_Intervention "Automation_Mode_Awareness_and_Intervention")
+SubClassOf(ebt:Automation_Mode_Awareness_and_Intervention ebt:Required_Behavior)
+
+# Class: ebt:Before_Start-up (Before_Start-up)
+
+AnnotationAssertion(rdfs:comment ebt:Before_Start-up "Time sub-interval within the Ground phase"^^xsd:string)
+AnnotationAssertion(rdfs:label ebt:Before_Start-up "Before_Start-up"@en)
+AnnotationAssertion(skos:definition ebt:Before_Start-up "The phase of flight from the time the first person boards the aircraft with the intention of flight until Start-up"^^xsd:string)
+SubClassOf(ebt:Before_Start-up ebt:Parked)
+
+# Class: ebt:Before_Take-off (Before_Take-off)
+
+AnnotationAssertion(rdfs:comment ebt:Before_Take-off "Time sub-interval within the Ground phase"^^xsd:string)
+AnnotationAssertion(rdfs:label ebt:Before_Take-off "Before_Take-off"@en)
+AnnotationAssertion(skos:definition ebt:Before_Take-off "The phase of flight from reaching take-off position until application of take-off power"^^xsd:string)
+SubClassOf(ebt:Before_Take-off ebt:Parked)
+
+# Class: ebt:Below_DA (Below_DA)
+
+AnnotationAssertion(rdfs:label ebt:Below_DA "Below_DA")
+SubClassOf(ebt:Below_DA ebt:Aircraft_Position)
+
+# Class: ebt:Below_V1 (ebt:Below_V1)
+
+AnnotationAssertion(skos:definition ebt:Below_V1 "Take-off phase previous to reach V1. V1 is the Decision speed (sometimes referred to as critical engine speed or critical engine failure speed) by which any decision to reject a takeoff must be made. Above V1, the takeoff must be continued unless there is reason to believe that the aircraft will not fly. An engine failure identified not later than V1 should always result in a rejected takeoff.")
+SubClassOf(ebt:Below_V1 ebt:Take-off_Run)
+
+# Class: ebt:Birds (Birds)
+
+AnnotationAssertion(rdfs:label ebt:Birds "Birds")
+SubClassOf(ebt:Birds ebt:Environment_Event)
+
+# Class: ebt:Bounced_Landing (Bounced_Landing)
+
+AnnotationAssertion(rdfs:label ebt:Bounced_Landing "Bounced_Landing")
+SubClassOf(ebt:Bounced_Landing ebt:Undesired_Aircraft_State)
+
+# Class: ebt:COM_Scenario (COM Scenario)
+
+AnnotationAssertion(rdfs:label ebt:COM_Scenario "COM Scenario"@en)
+AnnotationAssertion(skos:definition ebt:COM_Scenario "Event set that trains Communication competency."^^xsd:string)
+EquivalentClasses(ebt:COM_Scenario ObjectUnionOf(ObjectIntersectionOf(ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:High_Temperature)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Adverse_Weather)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear_Warning) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Wind)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event)) ObjectSomeValuesFrom(ebt:hasAircraftPosition ebt:Below_DA)) ObjectIntersectionOf(ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Factor_Out_of_Limits) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasEvent ebt:Wind)) ObjectSomeValuesFrom(ebt:hasAircraftPosition ebt:Below_DA)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Cloud_Base_Deterioration) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visibility_Deterioration) ObjectSomeValuesFrom(ebt:hasEvent ebt:Wind)) ObjectSomeValuesFrom(ebt:hasNavigationProcedure ebt:Circling_Approach) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Go-around)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Icing) ObjectSomeValuesFrom(ebt:hasEvent ebt:Precipitation) ObjectSomeValuesFrom(ebt:hasEvent ebt:Thunderstorm)) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Climb_to_Cruising_Level_or_Altitude) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Landing) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectSomeValuesFrom(ebt:hasEvent ebt:NAV_degradation)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Ground)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Fire-Smoke)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Ground)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Lost_Communication)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Before_Take-off) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Predictive_Windshear_Warning)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Descent) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:En-route)) ObjectSomeValuesFrom(ebt:hasEvent ebt:ACAS_Warning)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftPosition ebt:On_Final) ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftState ebt:Marginal_Performance) ObjectSomeValuesFrom(ebt:hasEvent ebt:Engine_Failure) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Crew_Error) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:DirectInterventionOfPilotMonitoring) ObjectSomeValuesFrom(ebt:leadsTo ebt:Undesired_Aircraft_State)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Crosswind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Event_At_the_Limit) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visibility_Deterioration) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Landing)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Descent_Resolution_Advisory) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Missed_Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Diversion) ObjectSomeValuesFrom(ebt:hasEvent ebt:Smoke) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Engine_Failure) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Initial_Climb)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Malfunction) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Landing)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Pilot_Incapatication) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Runway-Taxiway_Contamination) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Visibility_Deterioration) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectSomeValuesFrom(ebt:hasEvent ebt:ATC_Issue) ObjectSomeValuesFrom(ebt:hasEvent ebt:Descent_Resolution_Advisory) ObjectSomeValuesFrom(ebt:hasEvent ebt:Loading_Fuel_Performance_Error)))
+SubClassOf(ebt:COM_Scenario ebt:Scenario)
+
+# Class: ebt:Cabin-Flight_Deck_Event (Cabin/Flight Deck Event)
+
+AnnotationAssertion(rdfs:label ebt:Cabin-Flight_Deck_Event "Cabin/Flight Deck Event")
+SubClassOf(ebt:Cabin-Flight_Deck_Event ebt:Aircraft_Event)
+
+# Class: ebt:Cabin_Crew_Report (Cabin_Crew_Report)
+
+AnnotationAssertion(rdfs:label ebt:Cabin_Crew_Report "Cabin_Crew_Report")
+AnnotationAssertion(skos:comment ebt:Cabin_Crew_Report "Information given by the cabin crew to PIC regarding the state of the aircraft that may affect the safety of the flight [own definition]")
+SubClassOf(ebt:Cabin_Crew_Report ebt:Cabin-Flight_Deck_Event)
+
+# Class: ebt:Cabin_Fire (Cabin_Fire)
+
+AnnotationAssertion(rdfs:label ebt:Cabin_Fire "Cabin_Fire")
+SubClassOf(ebt:Cabin_Fire ebt:Fire-Smoke)
+
+# Class: ebt:Cargo_Fire (Cargo_Fire)
+
+AnnotationAssertion(rdfs:label ebt:Cargo_Fire "Cargo_Fire")
+SubClassOf(ebt:Cargo_Fire ebt:Warning)
+
+# Class: ebt:Circling_Approach (Circling Approach)
+
+AnnotationAssertion(rdfs:label ebt:Circling_Approach "Circling Approach")
+SubClassOf(ebt:Circling_Approach ebt:Non-precision_Approach_Procedure)
+
+# Class: ebt:Clear_Air_Turbulence (Clear_Air_Turbulence)
+
+AnnotationAssertion(rdfs:label ebt:Clear_Air_Turbulence "Clear_Air_Turbulence"@en)
+AnnotationAssertion(skos:definition ebt:Clear_Air_Turbulence "Eddy motion in the atmosphere which is a function of both time and space and occurs clear
+of cloud."^^xsd:string)
+SubClassOf(ebt:Clear_Air_Turbulence ebt:Turbulence)
+
+# Class: ebt:Clearance_Problem (Clearance_Problem)
+
+AnnotationAssertion(rdfs:label ebt:Clearance_Problem "Clearance_Problem")
+SubClassOf(ebt:Clearance_Problem ebt:ATC_Issue)
+
+# Class: ebt:Clearance_giving_Insuficcient_Terrain_Clearance (Clearance_giving_Insuficcient_Terrain_Clearance)
+
+AnnotationAssertion(rdfs:label ebt:Clearance_giving_Insuficcient_Terrain_Clearance "Clearance_giving_Insuficcient_Terrain_Clearance")
+SubClassOf(ebt:Clearance_giving_Insuficcient_Terrain_Clearance ebt:Clearance_Problem)
+
+# Class: ebt:Clearance_to_an_altitude_below_acceleration_altitude (Clearance_to_Altitude_Below_Acceleration_Altitude)
+
+AnnotationAssertion(rdfs:label ebt:Clearance_to_an_altitude_below_acceleration_altitude "Clearance_to_Altitude_Below_Acceleration_Altitude")
+SubClassOf(ebt:Clearance_to_an_altitude_below_acceleration_altitude ebt:Clearance_Problem)
+DisjointClasses(ebt:Clearance_to_an_altitude_below_acceleration_altitude ebt:Cruise)
+DisjointClasses(ebt:Clearance_to_an_altitude_below_acceleration_altitude ebt:Ground)
+DisjointClasses(ebt:Clearance_to_an_altitude_below_acceleration_altitude ebt:Landing)
+
+# Class: ebt:Clearance_to_waypoints_beyond_programmed_ones (Clearance_to_Waypoints_Beyond_Programmed)
+
+AnnotationAssertion(rdfs:label ebt:Clearance_to_waypoints_beyond_programmed_ones "Clearance_to_Waypoints_Beyond_Programmed")
+SubClassOf(ebt:Clearance_to_waypoints_beyond_programmed_ones ebt:Clearance_Problem)
+
+# Class: ebt:Climb_Resolution_Advisory (Climb_Resolution_Advisory)
+
+AnnotationAssertion(rdfs:label ebt:Climb_Resolution_Advisory "Climb_Resolution_Advisory")
+SubClassOf(ebt:Climb_Resolution_Advisory ebt:RA_Warning)
+
+# Class: ebt:Climb_to_Cruising_Level_or_Altitude (Climb to Cruising Level or Altitude)
+
+AnnotationAssertion(rdfs:label ebt:Climb_to_Cruising_Level_or_Altitude "Climb to Cruising Level or Altitude")
+AnnotationAssertion(skos:comment ebt:Climb_to_Cruising_Level_or_Altitude "From completion of Initial Climb to arrival at initial assigned cruise altitude.")
+SubClassOf(ebt:Climb_to_Cruising_Level_or_Altitude ebt:En-route)
+
+# Class: ebt:Cloud (Cloud)
+
+AnnotationAssertion(rdfs:label ebt:Cloud "Cloud"@en)
+SubClassOf(ebt:Cloud ebt:Visibility_Deterioration)
+
+# Class: ebt:Cloud_Base_Deterioration (Cloud_Base_Deterioration)
+
+AnnotationAssertion(rdfs:label ebt:Cloud_Base_Deterioration "Cloud_Base_Deterioration")
+SubClassOf(ebt:Cloud_Base_Deterioration ebt:Adverse_Weather)
+
+# Class: ebt:Communication (ebt:Communication)
+
+AnnotationAssertion(skos:definition ebt:Communication "Competency that let the pilot demonstrate effective oral, non-verbal and written communications in normal and non-normal situations")
+SubClassOf(ebt:Communication ebt:Competency)
+
+# Class: ebt:Communication_Problem (Communication_Problem)
+
+AnnotationAssertion(rdfs:label ebt:Communication_Problem "Communication_Problem")
+SubClassOf(ebt:Communication_Problem ebt:ATC_Issue)
+
+# Class: ebt:Competency (Competency)
+
+AnnotationAssertion(rdfs:label ebt:Competency "Competency")
+AnnotationAssertion(skos:definition ebt:Competency "A combination of skills, knowledge and attitudes required to perform a task to the prescribed standard.")
+
+# Class: ebt:Condition (Condition)
+
+AnnotationAssertion(rdfs:label ebt:Condition "Condition")
+SubClassOf(ebt:Condition ebt:Element)
+
+# Class: ebt:Confirmed_Information (Confirmed_Information)
+
+AnnotationAssertion(rdfs:label ebt:Confirmed_Information "Confirmed_Information")
+SubClassOf(ebt:Confirmed_Information ebt:Information_Issue)
+
+# Class: ebt:Controller_Error (Controller_Error)
+
+AnnotationAssertion(rdfs:label ebt:Controller_Error "Controller_Error")
+SubClassOf(ebt:Controller_Error ebt:ATC_Issue)
+
+# Class: ebt:Crew_Error (Crew_Error)
+
+AnnotationAssertion(rdfs:label ebt:Crew_Error "Crew_Error")
+SubClassOf(ebt:Crew_Error ebt:Crew_Event)
+
+# Class: ebt:Crew_Event (Crew_Event)
+
+AnnotationAssertion(rdfs:label ebt:Crew_Event "Crew_Event")
+SubClassOf(ebt:Crew_Event ebt:Event)
+
+# Class: ebt:Crosswind (Crosswind)
+
+AnnotationAssertion(rdfs:label ebt:Crosswind "Crosswind"@en)
+AnnotationAssertion(skos:definition ebt:Crosswind "A wind which is blowing other than directly in line with the aircraft's track"^^xsd:string)
+SubClassOf(ebt:Crosswind ebt:Demanding_Wind_Conditions)
+
+# Class: ebt:Cruise (Cruise)
+
+AnnotationAssertion(rdfs:label ebt:Cruise "Cruise"@en)
+AnnotationAssertion(skos:definition ebt:Cruise "The phase of flight from the top of climb to cruise altitude, or flight level, to the start of the descent toward the destination aerodrome or landing site."^^xsd:string)
+SubClassOf(ebt:Cruise ebt:En-route)
+DisjointClasses(ebt:Cruise ebt:Engine-Out_Special_Terrain_Procedure)
+DisjointClasses(ebt:Cruise ebt:High_Energy_Descent)
+
+# Class: ebt:Demanding_Wind_Conditions (Demanding_Wind_Conditions)
+
+AnnotationAssertion(rdfs:label ebt:Demanding_Wind_Conditions "Demanding_Wind_Conditions")
+SubClassOf(ebt:Demanding_Wind_Conditions ebt:Wind)
+
+# Class: ebt:Descent (Descent)
+
+AnnotationAssertion(rdfs:label ebt:Descent "Descent")
+SubClassOf(ebt:Descent ebt:Flight_Phase)
+
+# Class: ebt:Descent_Resolution_Advisory (Descent_Resolution_Advisory)
+
+AnnotationAssertion(rdfs:label ebt:Descent_Resolution_Advisory "Descent_Resolution_Advisory")
+SubClassOf(ebt:Descent_Resolution_Advisory ebt:RA_Warning)
+
+# Class: ebt:Deviation (ebt:Deviation)
+
+SubClassOf(ebt:Deviation ebt:Operational_Event)
+
+# Class: ebt:Deviation_From_Flight_Path (Deviation From Flight Path)
+
+AnnotationAssertion(rdfs:label ebt:Deviation_From_Flight_Path "Deviation From Flight Path")
+SubClassOf(ebt:Deviation_From_Flight_Path ebt:Undesired_Aircraft_State)
+
+# Class: ebt:Deviation_from_planned_descent_routing (Deviation_from_Planned_Descent_Routing)
+
+AnnotationAssertion(rdfs:label ebt:Deviation_from_planned_descent_routing "Deviation_from_Planned_Descent_Routing")
+SubClassOf(ebt:Deviation_from_planned_descent_routing ebt:Deviation)
+
+# Class: ebt:Deviation_in_Altitude (Deviation_in_Altitude)
+
+AnnotationAssertion(rdfs:label ebt:Deviation_in_Altitude "Deviation_in_Altitude")
+SubClassOf(ebt:Deviation_in_Altitude ebt:Deviation_From_Flight_Path)
+
+# Class: ebt:Deviation_in_Bank_Angle (Deviation_in_Bank_Angle)
+
+AnnotationAssertion(rdfs:label ebt:Deviation_in_Bank_Angle "Deviation_in_Bank_Angle")
+SubClassOf(ebt:Deviation_in_Bank_Angle ebt:Deviation_From_Flight_Path)
+
+# Class: ebt:Deviation_in_Pitch (Deviation_in_Pitch)
+
+AnnotationAssertion(rdfs:label ebt:Deviation_in_Pitch "Deviation_in_Pitch")
+SubClassOf(ebt:Deviation_in_Pitch ebt:Deviation_From_Flight_Path)
+
+# Class: ebt:Deviation_in_Speed (Deviation_in_Speed)
+
+AnnotationAssertion(rdfs:label ebt:Deviation_in_Speed "Deviation_in_Speed")
+SubClassOf(ebt:Deviation_in_Speed ebt:Deviation_From_Flight_Path)
+
+# Class: ebt:Deviation_in_Vertical_Rate (Deviation_in_Vertical_Rate)
+
+AnnotationAssertion(rdfs:label ebt:Deviation_in_Vertical_Rate "Deviation_in_Vertical_Rate")
+SubClassOf(ebt:Deviation_in_Vertical_Rate ebt:Deviation_From_Flight_Path)
+
+# Class: ebt:DirectInterventionOfPilotMonitoring (Direct_Intervention)
+
+AnnotationAssertion(rdfs:label ebt:DirectInterventionOfPilotMonitoring "Direct_Intervention")
+SubClassOf(ebt:DirectInterventionOfPilotMonitoring ebt:Required_Behavior)
+
+# Class: ebt:Diversion (Diversion)
+
+AnnotationAssertion(rdfs:label ebt:Diversion "Diversion")
+AnnotationAssertion(skos:comment ebt:Diversion "An event involving any deviation from the intended destination.")
+SubClassOf(ebt:Diversion ebt:Operational_Event)
+
+# Class: ebt:Doubtful_Braking_Action (Doubtful_Braking_Action)
+
+AnnotationAssertion(rdfs:label ebt:Doubtful_Braking_Action "Doubtful_Braking_Action")
+SubClassOf(ebt:Doubtful_Braking_Action ebt:Doubtful_Information)
+
+# Class: ebt:Doubtful_Information (Doubtful_Information)
+
+AnnotationAssertion(rdfs:label ebt:Doubtful_Information "Doubtful_Information")
+SubClassOf(ebt:Doubtful_Information ebt:Information_Issue)
+
+# Class: ebt:Element (Element)
+
+AnnotationAssertion(rdfs:label ebt:Element "Element")
+
+# Class: ebt:En-route (En-route)
+
+AnnotationAssertion(rdfs:label ebt:En-route "En-route")
+AnnotationAssertion(skos:comment ebt:En-route "Instrument Flight Rules (IFR): From completion of Initial Climb through cruise altitude and completion of controlled descent to the Initial Approach Fix (IAF).
+Visual Flight Rules (VFR): From completion of Initial Climb through cruise and controlled descent to the VFR pattern altitude or 1000 feet above runway elevation, whichever comes first.")
+SubClassOf(ebt:En-route ebt:Flight_Phase)
+
+# Class: ebt:Engine-Out_Special_Terrain_Procedure (Engine-Out Special Terrain Procedure)
+
+AnnotationAssertion(rdfs:label ebt:Engine-Out_Special_Terrain_Procedure "Engine-Out Special Terrain Procedure")
+SubClassOf(ebt:Engine-Out_Special_Terrain_Procedure ebt:Instrumental_Flight_Rules_Procedure)
+DisjointClasses(ebt:Engine-Out_Special_Terrain_Procedure ebt:Ground)
+DisjointClasses(ebt:Engine-Out_Special_Terrain_Procedure ebt:Landing)
+
+# Class: ebt:Engine_Failure (Engine_Failure)
+
+AnnotationAssertion(rdfs:label ebt:Engine_Failure "Engine_Failure")
+SubClassOf(ebt:Engine_Failure ebt:Malfunction)
+
+# Class: ebt:Engine_Fire (Engine_Fire)
+
+AnnotationAssertion(rdfs:label ebt:Engine_Fire "Engine_Fire")
+SubClassOf(ebt:Engine_Fire ebt:Warning)
+
+# Class: ebt:Environment_Event (Environment_Event)
+
+AnnotationAssertion(rdfs:label ebt:Environment_Event "Environment_Event")
+SubClassOf(ebt:Environment_Event ebt:Event)
+
+# Class: ebt:Event (Event)
+
+AnnotationAssertion(rdfs:label ebt:Event "Event"@en)
+AnnotationAssertion(skos:comment ebt:Event "Threat or error, according to TEM framework, introduced in a specific moment of the training session [own definition]")
+SubClassOf(ebt:Event ebt:Element)
+
+# Class: ebt:Event_At_the_Limit (Event_At_the_Limit)
+
+AnnotationAssertion(rdfs:label ebt:Event_At_the_Limit "Event_At_the_Limit")
+SubClassOf(ebt:Event_At_the_Limit ebt:Intensity_Limited_Factor)
+
+# Class: ebt:Event_with_Predictability (Event_with_Predictability)
+
+AnnotationAssertion(rdfs:label ebt:Event_with_Predictability "Event_with_Predictability")
+SubClassOf(ebt:Event_with_Predictability ebt:Event)
+
+# Class: ebt:Expected_Event (Expected Event)
+
+AnnotationAssertion(rdfs:label ebt:Expected_Event "Expected Event")
+AnnotationAssertion(skos:comment ebt:Expected_Event "An event that can be expected by the crew taking into account previous information available [own definition]")
+SubClassOf(ebt:Expected_Event ebt:Event_with_Predictability)
+DisjointClasses(ebt:Expected_Event ebt:Unexpected_Event)
+
+# Class: ebt:Extinguishable_Engine_Fire (Extinguishable_Engine_Fire)
+
+AnnotationAssertion(rdfs:label ebt:Extinguishable_Engine_Fire "Extinguishable_Engine_Fire")
+SubClassOf(ebt:Extinguishable_Engine_Fire ebt:Engine_Fire)
+
+# Class: ebt:Factor_Out_of_Limits (Event_Out_of_Limits)
+
+AnnotationAssertion(rdfs:label ebt:Factor_Out_of_Limits "Event_Out_of_Limits")
+SubClassOf(ebt:Factor_Out_of_Limits ebt:Intensity_Limited_Factor)
+
+# Class: ebt:Factor_Within_Limits (Event_Within_Limits)
+
+AnnotationAssertion(rdfs:label ebt:Factor_Within_Limits "Event_Within_Limits")
+SubClassOf(ebt:Factor_Within_Limits ebt:Intensity_Limited_Factor)
+
+# Class: ebt:Final_Approach (Final_Approach)
+
+AnnotationAssertion(rdfs:label ebt:Final_Approach "Final_Approach"@en)
+AnnotationAssertion(skos:definition ebt:Final_Approach "That part of an instrument approach procedure which commences at the specified final approach fix or point, or where such a fix or point is not specified, 
+a) at the end of the last procedure turn, base turn or inbound turn of a racetrack procedure, if specified; or 
+b) at the point of interception of the last track specified in the approach procedure; and ends at a point in the vicinity of an aerodrome from which:
+1) a landing can be made; or
+2) a missed approach procedure is initiated."^^xsd:string)
+SubClassOf(ebt:Final_Approach ebt:Approach)
+
+# Class: ebt:Final_Descent (Final_Descent)
+
+AnnotationAssertion(rdfs:label ebt:Final_Descent "Final_Descent")
+SubClassOf(ebt:Final_Descent ebt:Descent)
+
+# Class: ebt:Fire-Smoke (Fire/Smoke)
+
+AnnotationAssertion(rdfs:label ebt:Fire-Smoke "Fire/Smoke")
+SubClassOf(ebt:Fire-Smoke ebt:Cabin-Flight_Deck_Event)
+
+# Class: ebt:Flight_Deck_Fire (Flight_Deck_Fire)
+
+AnnotationAssertion(rdfs:label ebt:Flight_Deck_Fire "Flight_Deck_Fire")
+SubClassOf(ebt:Flight_Deck_Fire ebt:Fire-Smoke)
+
+# Class: ebt:Flight_Phase (Flight_Phase)
+
+AnnotationAssertion(rdfs:label ebt:Flight_Phase "Flight_Phase"@en)
+SubClassOf(ebt:Flight_Phase ebt:Operational_Condition)
+DisjointClasses(ebt:Flight_Phase ebt:Navigation_Procedure)
+
+# Class: ebt:Flight_Plan (Flight Plan)
+
+AnnotationAssertion(rdfs:label ebt:Flight_Plan "Flight Plan")
+SubClassOf(ebt:Flight_Plan ebt:Information)
+
+# Class: ebt:Fog (Fog)
+
+AnnotationAssertion(rdfs:label ebt:Fog "Fog"@en)
+AnnotationAssertion(skos:definition ebt:Fog "A form of cloud in the surface layers of the atmosphere caused by suspended particles of condensed moisture or smoke, which reduces visibility to less than one kilometre."^^xsd:string)
+SubClassOf(ebt:Fog ebt:Cloud)
+
+# Class: ebt:FrequencyCongestion (Frequency_Congestion)
+
+AnnotationAssertion(rdfs:label ebt:FrequencyCongestion "Frequency_Congestion")
+SubClassOf(ebt:FrequencyCongestion ebt:Communication_Problem)
+
+# Class: ebt:GPS_Failure (GPS_Failure)
+
+AnnotationAssertion(rdfs:label ebt:GPS_Failure "GPS_Failure")
+SubClassOf(ebt:GPS_Failure ebt:NAV_Failure)
+
+# Class: ebt:Go-around (Go-around)
+
+AnnotationAssertion(rdfs:label ebt:Go-around "Go-around")
+SubClassOf(ebt:Go-around ebt:Required_Behavior)
+
+# Class: ebt:Go-around_flown_manually (Go-around_Flown_Manually)
+
+AnnotationAssertion(rdfs:label ebt:Go-around_flown_manually "Go-around_Flown_Manually")
+SubClassOf(ebt:Go-around_flown_manually ebt:Go-around)
+
+# Class: ebt:Ground (Ground)
+
+AnnotationAssertion(rdfs:label ebt:Ground "Ground"@en)
+AnnotationAssertion(skos:definition ebt:Ground "The phase of flight from initiation of Start-up to Take-off [own definition]"^^xsd:string)
+SubClassOf(ebt:Ground ebt:Flight_Phase)
+DisjointClasses(ebt:Ground ebt:High_Energy_Descent)
+DisjointClasses(ebt:Ground ebt:Visual_Flight_Rules)
+
+# Class: ebt:Gusts (Gusts)
+
+AnnotationAssertion(rdfs:label ebt:Gusts "Gusts"@en)
+AnnotationAssertion(skos:definition ebt:Gusts "Sudden significant increase in or rapid fluctuations of wind speed. Peak wind must reach at least 16 knots and the variation between peaks and lulls is at least 10 knots. The duration is usually less twenty seconds."^^xsd:string)
+SubClassOf(ebt:Gusts ebt:Demanding_Wind_Conditions)
+
+# Class: ebt:Hail (Hail)
+
+AnnotationAssertion(rdfs:label ebt:Hail "Hail"@en)
+AnnotationAssertion(skos:definition ebt:Hail "Hail is precipitation in the form of hard or soft ice pellets."^^xsd:string)
+SubClassOf(ebt:Hail ebt:Precipitation)
+
+# Class: ebt:Heavy_Rain (Heavy_Rain)
+
+AnnotationAssertion(rdfs:label ebt:Heavy_Rain "Heavy_Rain")
+SubClassOf(ebt:Heavy_Rain ebt:Rain)
+
+# Class: ebt:High_Energy_Descent (High_Energy_Descent)
+
+AnnotationAssertion(rdfs:label ebt:High_Energy_Descent "High_Energy_Descent")
+SubClassOf(ebt:High_Energy_Descent ebt:Undesired_Aircraft_State)
+DisjointClasses(ebt:High_Energy_Descent ebt:Landing)
+DisjointClasses(ebt:High_Energy_Descent ebt:Take-off)
+
+# Class: ebt:High_Speed_Event (High_Speed_Event)
+
+AnnotationAssertion(rdfs:label ebt:High_Speed_Event "High_Speed_Event")
+SubClassOf(ebt:High_Speed_Event ebt:Deviation_in_Speed)
+
+# Class: ebt:High_Temperature (High_Temperature)
+
+AnnotationAssertion(rdfs:label ebt:High_Temperature "High_Temperature"@en)
+SubClassOf(ebt:High_Temperature ebt:Adverse_Weather)
+
+# Class: ebt:Icing (Icing)
+
+AnnotationAssertion(rdfs:label ebt:Icing "Icing"@en)
+AnnotationAssertion(skos:comment ebt:Icing "It is included within Precipitation following the ICAO criteria in the ADREP taxonomy. Icing is usually produced as a result of being exposed to freezing precipitation."^^xsd:string)
+AnnotationAssertion(skos:definition ebt:Icing "An accretion of ice or related material on an aircraft."^^xsd:string)
+SubClassOf(ebt:Icing ebt:Adverse_Weather)
+
+# Class: ebt:Immediate_Descent (Immediate_Descent)
+
+AnnotationAssertion(rdfs:label ebt:Immediate_Descent "Immediate_Descent")
+SubClassOf(ebt:Immediate_Descent ebt:ATC_Issue)
+
+# Class: ebt:Immediate_Landing (Immediate_Landing)
+
+AnnotationAssertion(rdfs:label ebt:Immediate_Landing "Immediate_Landing")
+SubClassOf(ebt:Immediate_Landing ebt:Immediate_Response)
+
+# Class: ebt:Immediate_Response (Immediate_Response)
+
+AnnotationAssertion(rdfs:label ebt:Immediate_Response "Immediate_Response")
+SubClassOf(ebt:Immediate_Response ebt:Required_Behavior)
+
+# Class: ebt:Information (Information)
+
+AnnotationAssertion(rdfs:label ebt:Information "Information")
+AnnotationAssertion(skos:comment ebt:Information "Objective information available by the crew about the flight, potentially obtained through their own senses or from aircraft displays, manuals, reports and forecasts before a scenario event is presented [own definition]")
+SubClassOf(ebt:Information ebt:Condition)
+
+# Class: ebt:Information_Issue (Information_Event)
+
+AnnotationAssertion(rdfs:label ebt:Information_Issue "Information_Event")
+SubClassOf(ebt:Information_Issue ebt:Event)
+
+# Class: ebt:Initial_Approach (Initial_Approach)
+
+AnnotationAssertion(rdfs:label ebt:Initial_Approach "Initial_Approach"@en)
+SubClassOf(ebt:Initial_Approach ebt:Approach)
+
+# Class: ebt:Initial_Climb (Initial_Climb)
+
+AnnotationAssertion(rdfs:label ebt:Initial_Climb "Initial_Climb")
+AnnotationAssertion(skos:comment ebt:Initial_Climb "From the end of the Takeoff run sub-phase to the first prescribed power reduction, or until reaching 1000 feet above runway elevation or the VFR pattern, whichever comes first.")
+SubClassOf(ebt:Initial_Climb ebt:Take-off)
+
+# Class: ebt:Instrumental_Flight_Rules_Procedure (Instrument_Flight_Rules_Procedure)
+
+AnnotationAssertion(rdfs:label ebt:Instrumental_Flight_Rules_Procedure "Instrument_Flight_Rules_Procedure")
+SubClassOf(ebt:Instrumental_Flight_Rules_Procedure ebt:Navigation_Procedure)
+DisjointClasses(ebt:Instrumental_Flight_Rules_Procedure ebt:Visual_Flight_Rules)
+
+# Class: ebt:Intensity_Limited_Factor (Intensity_Limited_Event)
+
+AnnotationAssertion(rdfs:label ebt:Intensity_Limited_Factor "Intensity_Limited_Event")
+SubClassOf(ebt:Intensity_Limited_Factor ebt:Event)
+
+# Class: ebt:Intermediate_Approach (Intermediate_Approach)
+
+AnnotationAssertion(rdfs:label ebt:Intermediate_Approach "Intermediate_Approach"@en)
+AnnotationAssertion(skos:definition ebt:Intermediate_Approach "The phase of flight between the middle approach fix and the final approach fix; or between the end of a reversal
+procedure or dead-reckoning track procedure and the final approach fix."^^xsd:string)
+SubClassOf(ebt:Intermediate_Approach ebt:Approach)
+
+# Class: ebt:LTW_Scenario (LTW Scenario)
+
+AnnotationAssertion(rdfs:label ebt:LTW_Scenario "LTW Scenario"@en)
+AnnotationAssertion(skos:definition ebt:LTW_Scenario "Event set that trains Leadership and Teamwork competency."^^xsd:string)
+EquivalentClasses(ebt:LTW_Scenario ObjectUnionOf(ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Cabin_Fire) ObjectSomeValuesFrom(ebt:hasEvent ebt:Flight_Deck_Fire)) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Icing) ObjectSomeValuesFrom(ebt:hasEvent ebt:Precipitation) ObjectSomeValuesFrom(ebt:hasEvent ebt:Thunderstorm)) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Climb_to_Cruising_Level_or_Altitude) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Landing) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectSomeValuesFrom(ebt:hasEvent ebt:NAV_degradation)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftState ebt:Overweight_for_Landing) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:After_Take-off) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Immediate_Landing)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Cabin_Crew_Report) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Descent)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Descent_Resolution_Advisory) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Missed_Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Deviation_from_planned_descent_routing) ObjectSomeValuesFrom(ebt:hasEvent ebt:TAWS_Warning) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Descent)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Diversion) ObjectSomeValuesFrom(ebt:hasEvent ebt:Smoke) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Fire-Smoke) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:GPS_Failure) ObjectSomeValuesFrom(ebt:hasEvent ebt:Position_Drift) ObjectSomeValuesFrom(ebt:hasEvent ebt:TAWS_Warning) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Malfunction) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Below_V1)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Non-Extinguishable_Engine_Fire) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Pilot_Incapatication) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Runway-Taxiway_Contamination) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Runway-Taxiway_Contamination) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Stop-Go_Decision)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Clearance_giving_Insuficcient_Terrain_Clearance)))
+SubClassOf(ebt:LTW_Scenario ebt:Scenario)
+
+# Class: ebt:Landing (Landing)
+
+AnnotationAssertion(rdfs:label ebt:Landing "Landing"@en)
+AnnotationAssertion(skos:definition ebt:Landing "The phase of flight from the point of transition from nose-low to nose-up attitude, immediately before landing (flare), through touchdown and until aircraft exits landing runway or comes to a stop, whichever occurs first."^^xsd:string)
+SubClassOf(ebt:Landing ebt:Flight_Phase)
+
+# Class: ebt:Landing_Gear_Malfunction (Landing_Gear_Malfunction)
+
+AnnotationAssertion(rdfs:label ebt:Landing_Gear_Malfunction "Landing_Gear_Malfunction")
+SubClassOf(ebt:Landing_Gear_Malfunction ebt:Malfunction)
+
+# Class: ebt:Late_ATC_clearance (Late_Clearance)
+
+AnnotationAssertion(rdfs:label ebt:Late_ATC_clearance "Late_Clearance")
+SubClassOf(ebt:Late_ATC_clearance ebt:Clearance_Problem)
+
+# Class: ebt:Leadership_and_Teamwork (Leadership and Teamwork)
+
+AnnotationAssertion(rdfs:label ebt:Leadership_and_Teamwork "Leadership and Teamwork")
+AnnotationAssertion(skos:definition ebt:Leadership_and_Teamwork "Competency that let the pilot demonstrate effective leadership and team working")
+SubClassOf(ebt:Leadership_and_Teamwork ebt:Competency)
+
+# Class: ebt:Light_Rain (Light Rain)
+
+AnnotationAssertion(rdfs:label ebt:Light_Rain "Light Rain")
+SubClassOf(ebt:Light_Rain ebt:Rain)
+
+# Class: ebt:Loading_Fuel_Performance_Error (ebt:Loading_Fuel_Performance_Error)
+
+AnnotationAssertion(rdfs:comment ebt:Loading_Fuel_Performance_Error "Loading Fuel Performance Error")
+SubClassOf(ebt:Loading_Fuel_Performance_Error ebt:Crew_Error)
+
+# Class: ebt:Lost_Communication (Loss_of_Communications)
+
+AnnotationAssertion(rdfs:label ebt:Lost_Communication "Loss_of_Communications")
+SubClassOf(ebt:Lost_Communication ebt:Communication_Problem)
+
+# Class: ebt:Low_Speed_Event (Low_Speed_Event)
+
+AnnotationAssertion(rdfs:label ebt:Low_Speed_Event "Low_Speed_Event")
+SubClassOf(ebt:Low_Speed_Event ebt:Deviation_in_Speed)
+
+# Class: ebt:Low_Temperature (Low_Temperature)
+
+AnnotationAssertion(rdfs:label ebt:Low_Temperature "Low_Temperature")
+SubClassOf(ebt:Low_Temperature ebt:Adverse_Weather)
+
+# Class: ebt:Low_Visibility (Low_Visibility)
+
+AnnotationAssertion(rdfs:label ebt:Low_Visibility "Low_Visibility")
+SubClassOf(ebt:Low_Visibility ebt:Adverse_Weather)
+
+# Class: ebt:MEL_Item_Malfunction (MEL_Item_Malfunction)
+
+AnnotationAssertion(rdfs:label ebt:MEL_Item_Malfunction "MEL_Item_Malfunction")
+SubClassOf(ebt:MEL_Item_Malfunction ebt:Malfunction)
+
+# Class: ebt:MEL_Procedure (MEL_Procedure)
+
+AnnotationAssertion(rdfs:label ebt:MEL_Procedure "MEL_Procedure")
+SubClassOf(ebt:MEL_Procedure ebt:Standard_Operating_Procedure)
+
+# Class: ebt:Malfunction (Malfunction)
+
+AnnotationAssertion(rdfs:label ebt:Malfunction "Malfunction")
+SubClassOf(ebt:Malfunction ebt:Aircraft_Event)
+
+# Class: ebt:Marginal_Performance (Marginal_Performance)
+
+AnnotationAssertion(rdfs:label ebt:Marginal_Performance "Marginal_Performance")
+SubClassOf(ebt:Marginal_Performance ebt:Performance)
+
+# Class: ebt:Mass_and_balance (Mass_and_Balance)
+
+AnnotationAssertion(rdfs:label ebt:Mass_and_balance "Mass_and_Balance")
+SubClassOf(ebt:Mass_and_balance ebt:Aircraft_State)
+
+# Class: ebt:Maximum_Cruise_Flight_Level (Maximum_Cruise_Flight_Level)
+
+AnnotationAssertion(rdfs:label ebt:Maximum_Cruise_Flight_Level "Maximum_Cruise_Flight_Level")
+SubClassOf(ebt:Maximum_Cruise_Flight_Level ebt:Aircraft_Position)
+
+# Class: ebt:Missed_Approach (Missed_Approach)
+
+AnnotationAssertion(rdfs:label ebt:Missed_Approach "Missed_Approach"@en)
+AnnotationAssertion(skos:definition ebt:Missed_Approach "From the first application of power after the crew elects to execute a missed approach or go-around until the aircraft re-enters the sequence for a VFR pattern (go-around) or until the aircraft reaches the IAF for
+another approach (IFR)"^^xsd:string)
+SubClassOf(ebt:Missed_Approach ebt:Approach)
+
+# Class: ebt:Mist (Mist)
+
+AnnotationAssertion(rdfs:label ebt:Mist "Mist"@en)
+AnnotationAssertion(skos:definition ebt:Mist "Visibility reduction, to between one and 10 kilometres, caused by water droplets."^^xsd:string)
+SubClassOf(ebt:Mist ebt:Cloud)
+
+# Class: ebt:Moderate_Rain (Moderate_Rain)
+
+AnnotationAssertion(rdfs:label ebt:Moderate_Rain "Moderate_Rain")
+SubClassOf(ebt:Moderate_Rain ebt:Rain)
+
+# Class: ebt:NAV_Failure (NAV_Failure)
+
+AnnotationAssertion(rdfs:label ebt:NAV_Failure "NAV_Failure")
+SubClassOf(ebt:NAV_Failure ebt:Malfunction)
+
+# Class: ebt:NAV_degradation (NAV_degradation)
+
+AnnotationAssertion(rdfs:label ebt:NAV_degradation "NAV_degradation")
+SubClassOf(ebt:NAV_degradation ebt:Operational_Event)
+
+# Class: ebt:Navigation_Procedure (Navigation_Procedure)
+
+AnnotationAssertion(rdfs:label ebt:Navigation_Procedure "Navigation_Procedure")
+AnnotationAssertion(skos:comment ebt:Navigation_Procedure "Published procedure that is expected to be followed by the aircraft according to the flight plan or the clearances given by ATC [own definition]")
+SubClassOf(ebt:Navigation_Procedure ebt:Standard_Operating_Procedure)
+
+# Class: ebt:Near_the_Limits (Near_the_Limits)
+
+AnnotationAssertion(rdfs:label ebt:Near_the_Limits "Near_the_Limits")
+SubClassOf(ebt:Near_the_Limits ebt:Factor_Within_Limits)
+
+# Class: ebt:No_ATC_clearance (No_Clearance)
+
+AnnotationAssertion(rdfs:label ebt:No_ATC_clearance "No_Clearance")
+SubClassOf(ebt:No_ATC_clearance ebt:Clearance_Problem)
+
+# Class: ebt:No_Approach_Clearance (No_Approach_Clearance)
+
+AnnotationAssertion(rdfs:label ebt:No_Approach_Clearance "No_Approach_Clearance")
+SubClassOf(ebt:No_Approach_Clearance ebt:No_ATC_clearance)
+
+# Class: ebt:Non-Extinguishable_Engine_Fire (Non-Extinguishable_Engine_Fire)
+
+AnnotationAssertion(rdfs:label ebt:Non-Extinguishable_Engine_Fire "Non-Extinguishable_Engine_Fire")
+SubClassOf(ebt:Non-Extinguishable_Engine_Fire ebt:Engine_Fire)
+
+# Class: ebt:Non-precision_Approach_Procedure (ebt:Non-precision_Approach_Procedure)
+
+AnnotationAssertion(skos:comment ebt:Non-precision_Approach_Procedure "An instrument approach and landing which utilises lateral guidance but does not utilise vertical guidance")
+SubClassOf(ebt:Non-precision_Approach_Procedure ebt:Approach_Procedure)
+
+# Class: ebt:On_Final (On_Final)
+
+AnnotationAssertion(rdfs:label ebt:On_Final "On_Final")
+SubClassOf(ebt:On_Final ebt:Aircraft_Position)
+
+# Class: ebt:Operational_Category (Operational_Category)
+
+AnnotationAssertion(rdfs:label ebt:Operational_Category "Operational_Category")
+SubClassOf(ebt:Operational_Category ebt:Operational_Condition)
+
+# Class: ebt:Operational_Condition (Operational_Condition)
+
+AnnotationAssertion(rdfs:label ebt:Operational_Condition "Operational_Condition")
+AnnotationAssertion(skos:comment ebt:Operational_Condition "Current operational context element at the moment of introducing an event [own definition]")
+SubClassOf(ebt:Operational_Condition ebt:Condition)
+
+# Class: ebt:Operational_Diversion (Operational_Diversion)
+
+AnnotationAssertion(rdfs:label ebt:Operational_Diversion "Operational_Diversion")
+SubClassOf(ebt:Operational_Diversion ebt:Diversion)
+
+# Class: ebt:Operational_Event (Operation_Event)
+
+AnnotationAssertion(rdfs:label ebt:Operational_Event "Operation_Event")
+SubClassOf(ebt:Operational_Event ebt:Event)
+
+# Class: ebt:Overweight_for_Landing (Overweight_for_Landing)
+
+AnnotationAssertion(rdfs:label ebt:Overweight_for_Landing "Overweight_for_Landing")
+SubClassOf(ebt:Overweight_for_Landing ebt:Mass_and_balance)
+
+# Class: ebt:PSD_Scenario (PSD Scenario)
+
+AnnotationAssertion(rdfs:label ebt:PSD_Scenario "PSD Scenario"@en)
+AnnotationAssertion(skos:definition ebt:PSD_Scenario "Event set that trains Problem Solving and Decision Making competency"^^xsd:string)
+EquivalentClasses(ebt:PSD_Scenario ObjectUnionOf(ObjectIntersectionOf(ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Wind)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event)) ObjectSomeValuesFrom(ebt:hasAircraftPosition ebt:Below_DA)) ObjectIntersectionOf(ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Factor_Out_of_Limits) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasEvent ebt:Wind)) ObjectSomeValuesFrom(ebt:hasAircraftPosition ebt:Below_DA)) ObjectIntersectionOf(ObjectUnionOf(ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Thunderstorm) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Turbulence) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear_Warning)) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Approach) ObjectSomeValuesFrom(ebt:hasEvent ebt:Take-off)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Engine_Failure)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Aircraft_Upset) ObjectSomeValuesFrom(ebt:hasEvent ebt:Wind)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Cloud_Base_Deterioration) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visibility_Deterioration) ObjectSomeValuesFrom(ebt:hasEvent ebt:Wind)) ObjectSomeValuesFrom(ebt:hasNavigationProcedure ebt:Circling_Approach) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Go-around)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Crosswind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Gusts) ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind)) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Heavy_Rain) ObjectSomeValuesFrom(ebt:hasEvent ebt:Icing) ObjectSomeValuesFrom(ebt:hasEvent ebt:Thunderstorm)) ObjectSomeValuesFrom(ebt:hasAircraftPosition <https://narratech.com/document/ebtonto#At/Close_to_DA/MDA>) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Go-around)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Icing) ObjectSomeValuesFrom(ebt:hasEvent ebt:Precipitation) ObjectSomeValuesFrom(ebt:hasEvent ebt:Thunderstorm)) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Landing)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Crosswind)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Landing)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Demanding_Wind_Conditions)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Lost_Communication)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Before_Take-off) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Predictive_Windshear_Warning)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Descent) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:En-route)) ObjectSomeValuesFrom(ebt:hasEvent ebt:ACAS_Warning)) ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear_Warning)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftPosition ebt:Below_DA) ObjectSomeValuesFrom(ebt:hasEvent ebt:Birds) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visual_landing_reference)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftPosition ebt:Maximum_Cruise_Flight_Level) ObjectSomeValuesFrom(ebt:hasEvent ebt:Aircraft_Upset) ObjectSomeValuesFrom(ebt:hasEvent ebt:Wind) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:En-route)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftPosition ebt:On_Final) ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftPosition <https://narratech.com/document/ebtonto#At/Close_to_DA/MDA>) ObjectSomeValuesFrom(ebt:hasEvent ebt:Doubtful_Braking_Action) ObjectSomeValuesFrom(ebt:hasEvent ebt:Heavy_Rain) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visual_landing_reference)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftState ebt:Overweight_for_Landing) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:After_Take-off) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Immediate_Landing)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Cabin_Crew_Report) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Descent)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Crosswind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Gusts) ObjectSomeValuesFrom(ebt:hasEvent ebt:Turbulence) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Crosswind) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Descent_Resolution_Advisory) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Missed_Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Diversion) ObjectSomeValuesFrom(ebt:hasEvent ebt:Smoke) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Low_Visibility) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Landing)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Pilot_Incapatication) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Runway-Taxiway_Contamination) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Visibility_Deterioration) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Controller_Error) ObjectSomeValuesFrom(ebt:hasEvent ebt:Fire-Smoke) ObjectSomeValuesFrom(ebt:hasEvent ebt:Malfunction) ObjectSomeValuesFrom(ebt:hasEvent ebt:NAV_degradation) ObjectSomeValuesFrom(ebt:hasEvent ebt:TAWS_Warning)))
+SubClassOf(ebt:PSD_Scenario ebt:Scenario)
+
+# Class: ebt:Parked (Parked)
+
+AnnotationAssertion(rdfs:label ebt:Parked "Parked")
+SubClassOf(ebt:Parked ebt:Ground)
+
+# Class: ebt:Performance (Performance)
+
+AnnotationAssertion(rdfs:label ebt:Performance "Performance")
+SubClassOf(ebt:Performance ebt:Aircraft_State)
+
+# Class: ebt:Pilot_Incapatication (Pilot_Incapacitation)
+
+AnnotationAssertion(rdfs:label ebt:Pilot_Incapatication "Pilot_Incapacitation")
+SubClassOf(ebt:Pilot_Incapatication ebt:Crew_Event)
+
+# Class: ebt:PoorQualityTransmissions (Poor_Quality_Transmissions)
+
+AnnotationAssertion(rdfs:label ebt:PoorQualityTransmissions "Poor_Quality_Transmissions")
+SubClassOf(ebt:PoorQualityTransmissions ebt:Communication_Problem)
+
+# Class: ebt:Position_Drift (Position Drift)
+
+AnnotationAssertion(rdfs:label ebt:Position_Drift "Position Drift")
+SubClassOf(ebt:Position_Drift ebt:Undesired_Aircraft_State)
+
+# Class: ebt:Precipitation (Precipitation)
+
+AnnotationAssertion(rdfs:label ebt:Precipitation "Precipitation"@en)
+AnnotationAssertion(skos:definition ebt:Precipitation "Moisture released from the atmosphere especially in large enough particles to fall sensibly except fog and mist. e.g. hail, snow, rain sleet and drizzle."^^xsd:string)
+SubClassOf(ebt:Precipitation ebt:Visibility_Deterioration)
+
+# Class: ebt:Precision_Approach_Procedure (Precision approach procedure)
+
+AnnotationAssertion(rdfs:label ebt:Precision_Approach_Procedure "Precision approach procedure")
+AnnotationAssertion(skos:comment ebt:Precision_Approach_Procedure "A standard instrument approach procedure in which an
+electronic glide slope is provided, such as ILS and PAR. [FAA]")
+SubClassOf(ebt:Precision_Approach_Procedure ebt:Approach_Procedure)
+
+# Class: ebt:Predictive_Windshear_Warning (Predictive_Windshear_Warning)
+
+AnnotationAssertion(rdfs:label ebt:Predictive_Windshear_Warning "Predictive_Windshear_Warning"@en)
+AnnotationAssertion(skos:definition ebt:Predictive_Windshear_Warning "An early warning of potential windshear activity in areas ahead of the aircraft given by a Predictive Windshear System (PWS)  [definition taken from https://skybrary.aero/bookshelf/books/164.pdf]"^^xsd:string)
+SubClassOf(ebt:Predictive_Windshear_Warning ebt:Windshear_Warning)
+
+# Class: ebt:Preflight (Preflight)
+
+AnnotationAssertion(rdfs:label ebt:Preflight "Preflight")
+SubClassOf(ebt:Preflight ebt:Parked)
+
+# Class: ebt:Problem_Solving_and_Decision_Making (Problem Solving and Decision Making)
+
+AnnotationAssertion(rdfs:label ebt:Problem_Solving_and_Decision_Making "Problem Solving and Decision Making")
+AnnotationAssertion(skos:comment ebt:Problem_Solving_and_Decision_Making "Competency that let the pilot accurately identifiy risks, resolve problems and use the appropriate decision-making processes.")
+SubClassOf(ebt:Problem_Solving_and_Decision_Making ebt:Competency)
+
+# Class: ebt:RA_Warning (ebt:RA_Warning)
+
+SubClassOf(ebt:RA_Warning ebt:ACAS_Warning)
+
+# Class: ebt:Rain (Rain)
+
+AnnotationAssertion(rdfs:label ebt:Rain "Rain"@en)
+AnnotationAssertion(skos:definition ebt:Rain "Precipitation in the form of water droplets making a noticeable impact. Ranges in size from 1 to 5.5 mm"^^xsd:string)
+SubClassOf(ebt:Rain ebt:Precipitation)
+
+# Class: ebt:Reactive_Windshear_Warning (Reactive_Windshear_Warning)
+
+AnnotationAssertion(rdfs:label ebt:Reactive_Windshear_Warning "Reactive_Windshear_Warning"@en)
+AnnotationAssertion(skos:definition ebt:Reactive_Windshear_Warning "Warning based on the assessment of current aircraft performance (flight parameters and accelerations). The windshear warning is generated whenever the energy level of the aircraft falls below a predetermined threshold. It is given by a Reactive Windshear System (RWS). [definition taken from https://skybrary.aero/bookshelf/books/164.pdf]"^^xsd:string)
+SubClassOf(ebt:Reactive_Windshear_Warning ebt:Windshear_Warning)
+
+# Class: ebt:Required_Behavior (Required_Behavior)
+
+AnnotationAssertion(rdfs:label ebt:Required_Behavior "Required_Behavior")
+SubClassOf(ebt:Required_Behavior ebt:Element)
+
+# Class: ebt:Runway-Taxiway_Contamination (Runway-Taxiway Contamination)
+
+AnnotationAssertion(rdfs:label ebt:Runway-Taxiway_Contamination "Runway-Taxiway Contamination")
+SubClassOf(ebt:Runway-Taxiway_Contamination ebt:Airport_Event)
+
+# Class: ebt:Runway_Incursion (Runway_Incursion)
+
+AnnotationAssertion(rdfs:label ebt:Runway_Incursion "Runway_Incursion")
+SubClassOf(ebt:Runway_Incursion ebt:Traffic_Event)
+
+# Class: ebt:SAW_Scenario (SAW Scenario)
+
+AnnotationAssertion(rdfs:label ebt:SAW_Scenario "SAW Scenario"@en)
+AnnotationAssertion(skos:definition ebt:SAW_Scenario "Event set that trains Situation Awareness competency"^^xsd:string)
+EquivalentClasses(ebt:SAW_Scenario ObjectUnionOf(ObjectIntersectionOf(ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:High_Temperature)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Adverse_Weather)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear_Warning) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Cloud_Base_Deterioration) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visibility_Deterioration) ObjectSomeValuesFrom(ebt:hasEvent ebt:Wind)) ObjectSomeValuesFrom(ebt:hasNavigationProcedure ebt:Circling_Approach) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Go-around)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Heavy_Rain) ObjectSomeValuesFrom(ebt:hasEvent ebt:Icing) ObjectSomeValuesFrom(ebt:hasEvent ebt:Thunderstorm)) ObjectSomeValuesFrom(ebt:hasAircraftPosition <https://narratech.com/document/ebtonto#At/Close_to_DA/MDA>) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Go-around)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Thunderstorm) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Above_V1) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Initial_Climb)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Engine_Failure)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Descent)) ObjectSomeValuesFrom(ebt:hasEvent ebt:No_ATC_clearance)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Landing)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Demanding_Wind_Conditions)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Descent) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:En-route)) ObjectSomeValuesFrom(ebt:hasEvent ebt:ACAS_Warning)) ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear_Warning)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftPosition ebt:Below_DA) ObjectSomeValuesFrom(ebt:hasEvent ebt:Birds) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visual_landing_reference)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftPosition ebt:On_Final) ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftPosition <https://narratech.com/document/ebtonto#At/Close_to_DA/MDA>) ObjectSomeValuesFrom(ebt:hasEvent ebt:Auto_Flight_Failure) ObjectSomeValuesFrom(ebt:hasEvent ebt:Low_Visibility) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Go-around_flown_manually)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftPosition <https://narratech.com/document/ebtonto#At/Close_to_DA/MDA>) ObjectSomeValuesFrom(ebt:hasEvent ebt:Doubtful_Braking_Action) ObjectSomeValuesFrom(ebt:hasEvent ebt:Heavy_Rain) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visual_landing_reference)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Amendment_to_Cleared_Flight_Level) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Automation_Mode_Awareness_and_Intervention)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Cabin_Crew_Report) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Descent)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Cargo_Fire) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Clearance_to_an_altitude_below_acceleration_altitude) ObjectSomeValuesFrom(ebt:hasEvent ebt:Late_ATC_clearance)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Clearance_to_waypoints_beyond_programmed_ones) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Crew_Error) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:DirectInterventionOfPilotMonitoring) ObjectSomeValuesFrom(ebt:leadsTo ebt:Undesired_Aircraft_State)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Crosswind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Event_At_the_Limit) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visibility_Deterioration) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Landing)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Crosswind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Gusts) ObjectSomeValuesFrom(ebt:hasEvent ebt:Turbulence) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Descent_Resolution_Advisory) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Missed_Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Deviation_in_Speed) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:AP_disconnection_and_reengagement)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Diversion) ObjectSomeValuesFrom(ebt:hasEvent ebt:Smoke) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Lost_Communication) ObjectSomeValuesFrom(ebt:hasEvent ebt:No_Approach_Clearance) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Final_Descent)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Lost_Communication) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Malfunction) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Ground)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Malfunction) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Landing)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Reactive_Windshear_Warning) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Runway_Incursion) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectUnionOf(ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:High_Energy_Descent) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Descent)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Aircraft_Upset) ObjectSomeValuesFrom(ebt:hasEvent ebt:Bounced_Landing) ObjectSomeValuesFrom(ebt:hasEvent ebt:Controller_Error) ObjectSomeValuesFrom(ebt:hasEvent ebt:NAV_degradation) ObjectSomeValuesFrom(ebt:hasEvent ebt:TAWS_Warning) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unreilable_Speed) ObjectSomeValuesFrom(ebt:hasNavigationProcedure ebt:Engine-Out_Special_Terrain_Procedure)))
+SubClassOf(ebt:SAW_Scenario ebt:Scenario)
+
+# Class: ebt:Scenario (Scenario)
+
+AnnotationAssertion(rdfs:label ebt:Scenario "Scenario"@en)
+
+# Class: ebt:Shifting_Wind_Directions (Shifting_Wind_Directions)
+
+AnnotationAssertion(rdfs:label ebt:Shifting_Wind_Directions "Shifting_Wind_Directions")
+SubClassOf(ebt:Shifting_Wind_Directions ebt:Demanding_Wind_Conditions)
+
+# Class: ebt:Situational_Awareness (Situational Awareness)
+
+AnnotationAssertion(rdfs:label ebt:Situational_Awareness "Situational Awareness")
+AnnotationAssertion(skos:definition ebt:Situational_Awareness "Competency that let the pilot perceive and comprehend all of the relevant information available and anticipate what could happen that may affect the operation.")
+SubClassOf(ebt:Situational_Awareness ebt:Competency)
+
+# Class: ebt:Smoke (Smoke)
+
+AnnotationAssertion(rdfs:label ebt:Smoke "Smoke")
+SubClassOf(ebt:Smoke ebt:Fire-Smoke)
+
+# Class: ebt:Snow (Snow)
+
+AnnotationAssertion(rdfs:label ebt:Snow "Snow"@en)
+AnnotationAssertion(skos:definition ebt:Snow "Precipitation in the form of feathery ice crystals or large agglomerations in the form of flakes"^^xsd:string)
+SubClassOf(ebt:Snow ebt:Precipitation)
+
+# Class: ebt:Standard_Operating_Procedure (Standard_Operating_Procedure)
+
+AnnotationAssertion(rdfs:label ebt:Standard_Operating_Procedure "Standard_Operating_Procedure")
+SubClassOf(ebt:Standard_Operating_Procedure ebt:Operational_Condition)
+
+# Class: ebt:Start-up (Start-up)
+
+AnnotationAssertion(rdfs:comment ebt:Start-up "Time sub-interval within the Ground phase"^^xsd:string)
+AnnotationAssertion(rdfs:label ebt:Start-up "Start-up"@en)
+AnnotationAssertion(skos:definition ebt:Start-up "The phase of flight, while the aircraft is parked during which the engines are started."^^xsd:string)
+SubClassOf(ebt:Start-up ebt:Parked)
+
+# Class: ebt:Stop-Go_Decision (Stop-Go Decision)
+
+AnnotationAssertion(rdfs:label ebt:Stop-Go_Decision "Stop-Go Decision")
+SubClassOf(ebt:Stop-Go_Decision ebt:Required_Behavior)
+
+# Class: ebt:TAWS_Warning (TAWS_Warning)
+
+AnnotationAssertion(rdfs:label ebt:TAWS_Warning "TAWS_Warning"@en)
+AnnotationAssertion(skos:definition ebt:TAWS_Warning "An alert given by the Terrain Avoidance Warning System. This system provides the flight crew with sufficient information and alerting to detect a potentially hazardous terrain situation and so the flight crew may take effective action to prevent a CFIT event [FAA]"^^xsd:string)
+SubClassOf(ebt:TAWS_Warning ebt:Warning)
+
+# Class: ebt:Tailwind (Tailwind)
+
+AnnotationAssertion(rdfs:label ebt:Tailwind "Tailwind"@en)
+AnnotationAssertion(skos:definition ebt:Tailwind "A wind which is blowing from a direction aft of abeam the aircraft."^^xsd:string)
+SubClassOf(ebt:Tailwind ebt:Wind)
+
+# Class: ebt:Take-off (Take-off)
+
+AnnotationAssertion(rdfs:label ebt:Take-off "Take-off"@en)
+AnnotationAssertion(skos:definition ebt:Take-off "The phase of flight from the application of take-off power until reaching the first prescribed power reduction, or until reaching the vfr pattern or 1,500 feet (450 metres) above runway end elevation, whichever comes first or the termination (abort) of the take-off."^^xsd:string)
+SubClassOf(ebt:Take-off ebt:Flight_Phase)
+
+# Class: ebt:Take-off_Run (Take-off Run)
+
+AnnotationAssertion(rdfs:label ebt:Take-off_Run "Take-off Run")
+AnnotationAssertion(skos:comment ebt:Take-off_Run "The phase of flight from the application of take-off power, through the take-off roll and rotation up to 35 feet [12 metres] above runway end elevation or until gear-up selection, whichever comes first.")
+SubClassOf(ebt:Take-off_Run ebt:Take-off)
+
+# Class: ebt:Taxi (Taxi)
+
+AnnotationAssertion(rdfs:label ebt:Taxi "Taxi")
+SubClassOf(ebt:Taxi ebt:Ground)
+
+# Class: ebt:Taxi_from_Runway (Taxi_from_Runway)
+
+AnnotationAssertion(rdfs:comment ebt:Taxi_from_Runway "Time sub-interval within the Ground phase"^^xsd:string)
+AnnotationAssertion(rdfs:label ebt:Taxi_from_Runway "Taxi_from_Runway"@en)
+AnnotationAssertion(skos:definition ebt:Taxi_from_Runway "Begins upon exiting the landing runway and terminates upon arrival at the gate, ramp, apron, or parking area,
+when the aircraft ceases to move under its own power."^^xsd:string)
+SubClassOf(ebt:Taxi_from_Runway ebt:Taxi)
+
+# Class: ebt:Taxi_to_Runway (Taxi_to_Runway)
+
+AnnotationAssertion(rdfs:comment ebt:Taxi_to_Runway "Time sub-interval within the Ground phase"^^xsd:string)
+AnnotationAssertion(rdfs:label ebt:Taxi_to_Runway "Taxi_to_Runway"@en)
+AnnotationAssertion(skos:definition ebt:Taxi_to_Runway "Commences when the aircraft begins to move under its own power leaving the gate, ramp, apron, or parking area,
+and terminates upon reaching the runway"^^xsd:string)
+SubClassOf(ebt:Taxi_to_Runway ebt:Taxi)
+
+# Class: ebt:Taxi_to_Take-off_Position (Taxi_to_Take-off_Position)
+
+AnnotationAssertion(rdfs:comment ebt:Taxi_to_Take-off_Position "Time sub-interval within the Ground phase"^^xsd:string)
+AnnotationAssertion(rdfs:label ebt:Taxi_to_Take-off_Position "Taxi_to_Take-off_Position"@en)
+AnnotationAssertion(skos:definition ebt:Taxi_to_Take-off_Position "From entering the runway until reaching the take-off position"^^xsd:string)
+SubClassOf(ebt:Taxi_to_Take-off_Position ebt:Taxi)
+
+# Class: ebt:Technical_Diversion (Technical_Diversion)
+
+AnnotationAssertion(rdfs:label ebt:Technical_Diversion "Technical_Diversion")
+SubClassOf(ebt:Technical_Diversion ebt:Diversion)
+
+# Class: ebt:Thunderstorm (Thunderstorm)
+
+AnnotationAssertion(rdfs:label ebt:Thunderstorm "Thunderstorm")
+AnnotationAssertion(skos:comment ebt:Thunderstorm "An extremely large cumuliform cloud with a top reaching the stratosphere and spreading out in the form of an ice-crystal anvil.")
+SubClassOf(ebt:Thunderstorm ebt:Adverse_Weather)
+
+# Class: ebt:Traffic_Advisory (Traffic_Advisory)
+
+AnnotationAssertion(rdfs:label ebt:Traffic_Advisory "Traffic_Advisory")
+SubClassOf(ebt:Traffic_Advisory ebt:ACAS_Warning)
+
+# Class: ebt:Traffic_Event (Traffic_Event)
+
+AnnotationAssertion(rdfs:label ebt:Traffic_Event "Traffic_Event")
+SubClassOf(ebt:Traffic_Event ebt:ATC_Issue)
+
+# Class: ebt:Training_Session (Training Session)
+
+AnnotationAssertion(rdfs:label ebt:Training_Session "Training Session")
+
+# Class: ebt:Turbulence (Turbulence)
+
+AnnotationAssertion(rdfs:label ebt:Turbulence "Turbulence"@en)
+AnnotationAssertion(skos:definition ebt:Turbulence "Irregular and instantaneous motions of air which is made up of a number of small of eddies
+that travel in the general air current. Atmospheric turbulence is caused by random fluctuations
+in the wind flow. It can be caused by thermal or convective currents, differences in terrain and
+wind speed, along a frontal zone, or variation in temperature and pressure"^^xsd:string)
+SubClassOf(ebt:Turbulence ebt:Demanding_Wind_Conditions)
+
+# Class: ebt:Turbulence_in_Cloud (Turbulence_in_Cloud)
+
+AnnotationAssertion(rdfs:label ebt:Turbulence_in_Cloud "Turbulence_in_Cloud"@en)
+AnnotationAssertion(skos:definition ebt:Turbulence_in_Cloud "Air turbulence other than clear air turbulence"^^xsd:string)
+SubClassOf(ebt:Turbulence_in_Cloud ebt:Turbulence)
+
+# Class: ebt:Undesired_Aircraft_State (Undesired_Aircraft_State)
+
+AnnotationAssertion(rdfs:label ebt:Undesired_Aircraft_State "Undesired_Aircraft_State")
+SubClassOf(ebt:Undesired_Aircraft_State ebt:Aircraft_Event)
+
+# Class: ebt:Unexpected_Event (Unexpected Event)
+
+AnnotationAssertion(rdfs:label ebt:Unexpected_Event "Unexpected Event")
+AnnotationAssertion(skos:comment ebt:Unexpected_Event "An event that cannot be expected by the crew taking into account previous information available [own definition]")
+SubClassOf(ebt:Unexpected_Event ebt:Event_with_Predictability)
+
+# Class: ebt:Unreilable_Speed (Unreilable_Speed)
+
+AnnotationAssertion(rdfs:label ebt:Unreilable_Speed "Unreilable_Speed")
+SubClassOf(ebt:Unreilable_Speed ebt:Malfunction)
+
+# Class: ebt:Unstable_Approach (Unstable_Approach)
+
+AnnotationAssertion(rdfs:label ebt:Unstable_Approach "Unstable_Approach")
+SubClassOf(ebt:Unstable_Approach ebt:Undesired_Aircraft_State)
+
+# Class: ebt:Up_and_Downdrafts (Up_and_Downdrafts)
+
+AnnotationAssertion(rdfs:label ebt:Up_and_Downdrafts "Up_and_Downdrafts")
+SubClassOf(ebt:Up_and_Downdrafts ebt:Demanding_Wind_Conditions)
+
+# Class: ebt:Visibility_Deterioration (Visibility_Deterioration)
+
+AnnotationAssertion(rdfs:label ebt:Visibility_Deterioration "Visibility_Deterioration"@en)
+SubClassOf(ebt:Visibility_Deterioration ebt:Adverse_Weather)
+
+# Class: ebt:Visual_Flight_Rules (Visual_Flight_Rules_Procedure)
+
+AnnotationAssertion(rdfs:label ebt:Visual_Flight_Rules "Visual_Flight_Rules_Procedure")
+SubClassOf(ebt:Visual_Flight_Rules ebt:Navigation_Procedure)
+
+# Class: ebt:Visual_information (Visual_Information)
+
+AnnotationAssertion(rdfs:label ebt:Visual_information "Visual_Information")
+SubClassOf(ebt:Visual_information ebt:Confirmed_Information)
+
+# Class: ebt:Visual_landing_reference (Landing_Visual_Reference)
+
+AnnotationAssertion(rdfs:label ebt:Visual_landing_reference "Landing_Visual_Reference")
+SubClassOf(ebt:Visual_landing_reference ebt:Visual_information)
+
+# Class: ebt:WLM_Scenario (WLM Scenario)
+
+AnnotationAssertion(rdfs:label ebt:WLM_Scenario "WLM Scenario"@en)
+AnnotationAssertion(skos:definition ebt:WLM_Scenario "Event set that trains Workload Management competency"^^xsd:string)
+EquivalentClasses(ebt:WLM_Scenario ObjectUnionOf(ObjectIntersectionOf(ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:High_Temperature)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Adverse_Weather)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear_Warning) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Cloud_Base_Deterioration) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visibility_Deterioration) ObjectSomeValuesFrom(ebt:hasEvent ebt:Wind)) ObjectSomeValuesFrom(ebt:hasNavigationProcedure ebt:Circling_Approach) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Go-around)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Crosswind) ObjectSomeValuesFrom(ebt:hasEvent ebt:Gusts) ObjectSomeValuesFrom(ebt:hasEvent ebt:Tailwind)) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Heavy_Rain) ObjectSomeValuesFrom(ebt:hasEvent ebt:Icing) ObjectSomeValuesFrom(ebt:hasEvent ebt:Thunderstorm)) ObjectSomeValuesFrom(ebt:hasAircraftPosition <https://narratech.com/document/ebtonto#At/Close_to_DA/MDA>) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Go-around)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Icing) ObjectSomeValuesFrom(ebt:hasEvent ebt:Precipitation) ObjectSomeValuesFrom(ebt:hasEvent ebt:Thunderstorm)) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off_Run)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Engine_Failure)) ObjectIntersectionOf(ObjectUnionOf(ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Descent) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:En-route)) ObjectSomeValuesFrom(ebt:hasEvent ebt:ACAS_Warning)) ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear_Warning)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasAircraftPosition <https://narratech.com/document/ebtonto#At/Close_to_DA/MDA>) ObjectSomeValuesFrom(ebt:hasEvent ebt:Doubtful_Braking_Action) ObjectSomeValuesFrom(ebt:hasEvent ebt:Heavy_Rain) ObjectSomeValuesFrom(ebt:hasEvent ebt:Visual_landing_reference)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Cargo_Fire) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Crew_Error) ObjectSomeValuesFrom(ebt:leadsTo ebt:Unstable_Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Descent_Resolution_Advisory) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Missed_Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Diversion) ObjectSomeValuesFrom(ebt:hasEvent ebt:Smoke) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Engine_Failure) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Initial_Climb)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Fire-Smoke) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Ground)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Landing_Gear_Malfunction) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Low_Visibility) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Malfunction) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Pilot_Incapatication) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Approach)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Runway-Taxiway_Contamination) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Take-off) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Stop-Go_Decision)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:After_Rotation)) ObjectIntersectionOf(ObjectSomeValuesFrom(ebt:hasEvent ebt:Unexpected_Event) ObjectSomeValuesFrom(ebt:hasEvent ebt:Windshear) ObjectSomeValuesFrom(ebt:hasFlightPhase ebt:Cruise)) ObjectSomeValuesFrom(ebt:hasEvent ebt:Loading_Fuel_Performance_Error) ObjectSomeValuesFrom(ebt:hasEvent ebt:TAWS_Warning) ObjectSomeValuesFrom(ebt:hasRequiredBehavior ebt:Alternate_flight_control_modes)))
+SubClassOf(ebt:WLM_Scenario ebt:Scenario)
+
+# Class: ebt:Wake_Turbulence (Wake_Turbulence)
+
+AnnotationAssertion(rdfs:label ebt:Wake_Turbulence "Wake_Turbulence"@en)
+AnnotationAssertion(skos:definition ebt:Wake_Turbulence "Turbulent air behind an aircraft caused by any of the following: (a) wing-tip vortices; (b) rotor-tip vortices; (c) jet-engine thrust stream or jet blast; (d) rotor downwash; (e) prop wash."^^xsd:string)
+SubClassOf(ebt:Wake_Turbulence ebt:Turbulence)
+
+# Class: ebt:Warning (Warning)
+
+AnnotationAssertion(rdfs:label ebt:Warning "Warning"@en)
+AnnotationAssertion(skos:definition ebt:Warning "An event involving the triggering of a genuine warning of an aircraft operational warning system, i.e. warning systems which are
+not related to the performance of the aircraft systems."^^xsd:string)
+SubClassOf(ebt:Warning ebt:Aircraft_Event)
+
+# Class: ebt:Weather_Diversion (Weather_Diversion)
+
+AnnotationAssertion(rdfs:label ebt:Weather_Diversion "Weather_Diversion")
+SubClassOf(ebt:Weather_Diversion ebt:Diversion)
+
+# Class: ebt:Weather_Information (Weather Information)
+
+AnnotationAssertion(rdfs:label ebt:Weather_Information "Weather Information")
+SubClassOf(ebt:Weather_Information ebt:Information)
+
+# Class: ebt:Wind (Wind)
+
+AnnotationAssertion(rdfs:label ebt:Wind "Wind"@en)
+AnnotationAssertion(skos:definition ebt:Wind "Air motion relative to the earth's surface"^^xsd:string)
+SubClassOf(ebt:Wind ebt:Adverse_Weather)
+
+# Class: ebt:Windshear (Windshear)
+
+AnnotationAssertion(rdfs:label ebt:Windshear "Windshear"@en)
+AnnotationAssertion(skos:definition ebt:Windshear "A change in wind speed and/or direction in space, including updrafts and downdrafts."^^xsd:string)
+SubClassOf(ebt:Windshear ebt:Wind)
+
+# Class: ebt:Windshear_Warning (Windshear_Warning)
+
+AnnotationAssertion(rdfs:label ebt:Windshear_Warning "Windshear_Warning"@en)
+AnnotationAssertion(skos:definition ebt:Windshear_Warning "Warning given by a Reactive Windshear Systems (RWS) or a Predictive Windshear System (PWS) [own definition]"^^xsd:string)
+SubClassOf(ebt:Windshear_Warning ebt:Warning)
+
+# Class: ebt:Workload_Management (Workload Management)
+
+AnnotationAssertion(rdfs:label ebt:Workload_Management "Workload Management")
+AnnotationAssertion(skos:definition ebt:Workload_Management "Competency that let the pilot manage available resources efficiently to prioritize and perform tasks in a timely manner under all circumstances.")
+SubClassOf(ebt:Workload_Management ebt:Competency)
+
+# Class: <https://narratech.com/document/ebtonto#At/Close_to_DA/MDA> (At/Close_to_DA/MDA)
+
+AnnotationAssertion(rdfs:label <https://narratech.com/document/ebtonto#At/Close_to_DA/MDA> "At/Close_to_DA/MDA")
+SubClassOf(<https://narratech.com/document/ebtonto#At/Close_to_DA/MDA> ebt:Aircraft_Position)
+
+
+DisjointClasses(ebt:Above_Descent_Path ebt:Cruise ebt:Ground ebt:Landing ebt:Take-off)
+DisjointClasses(ebt:Approach ebt:Cruise ebt:Ground ebt:Landing ebt:Take-off)
+DisjointClasses(ebt:Below_DA ebt:Cruise ebt:Descent ebt:Ground ebt:Take-off)
+DisjointClasses(ebt:Bounced_Landing ebt:Descent ebt:En-route ebt:Ground ebt:Take-off)
+DisjointClasses(ebt:Competency ebt:Element ebt:Scenario ebt:Training_Session)
+DisjointClasses(ebt:Cruise ebt:Descent ebt:Ground ebt:Landing ebt:Take-off <https://narratech.com/document/ebtonto#At/Close_to_DA/MDA>)
+DisjointClasses(ebt:Descent ebt:En-route ebt:Ground ebt:Landing ebt:On_Final ebt:Take-off)
+DisjointClasses(ebt:Descent ebt:En-route ebt:Ground ebt:Take-off ebt:Unstable_Approach)
+DisjointClasses(ebt:Event ebt:Operational_Condition ebt:Required_Behavior)
+)
