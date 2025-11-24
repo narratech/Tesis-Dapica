@@ -5,6 +5,9 @@ Materiales relativos a la [tesis doctoral de Rubén Dapica](https://narratech.co
 ## ASRS
 Base de datos de incidentes aéreos en formato CSV. Al ser algo pesada está dentro del almacén de Git LFS asociado a este repositorio.
 
+## EBTOnto
+Versión funcional de la ontología con conceptos de escenarios aeroespaciales.
+
 ## Generator
 Código App Script y hojas de cálculo utilizadas para generar la base de conocimiento en función de la entrada tomada del ASRS.
 
