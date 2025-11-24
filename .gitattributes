@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Tratar con GIT LFS todo aquello que es demasiado grande como para el repositorio normal
+
+# Tipos de ficheros específicos de Unreal Engine
+*.csv filter=lfs diff=lfs merge=lfs -text
+
+# Recursos crudos que ponemos en el directorio `/RawContent` porque, tengan la extensión que tengan, deben gestionarse con LFS (los puede haber nuestros o ThirdParty... aunque muchos los ignoraremos y no estarán en el repositorio) 
+/RawContent/**/* filter=lfs diff=lfs merge=lfs -text
